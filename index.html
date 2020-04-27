@@ -1,0 +1,2764 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>4399自制</title>
+	<style>
+	html{
+		  box-sizing: border-box;
+	}
+	*{
+		  box-sizing: inherit;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover
+	{
+		text-decoration: underline;
+	}
+	body,ul,ol,p,span
+	{
+		margin:0;
+		padding:0;
+	}
+	li{
+		list-style:none;
+	}
+	body{
+		background-image:url(./image2/1.jpg);
+		background-repeat:no-repeat;
+		background-position:top center;
+		font-size:12px;
+	}
+	body>header
+	{
+		background-color:#fbfbfb;
+		line-height:31px;
+		height:31px;width:100%;
+		border-bottom:1px solid #f3f3f3;
+	}
+	header>.top
+	{
+		width:980px;height: 31px;
+		margin:0 auto;
+	}
+	header>.top>.top-left
+	{
+		float:left;
+	}
+	header>.top>.top-left>div
+	{
+		float:left;
+	}
+	header>.top>.top-right
+	{
+		float:right;
+	}
+	header>.top>.top-right>div
+	{
+		float:left;
+	}
+	header>.top>div>div
+	{
+		margin:0 5px;
+		cursor:pointer;
+	}
+	header>.top>div>div>a
+	{
+		color: #8e8e8e;
+	}
+	header>.top>div>div>a:hover
+	{
+		text-decoration:underline;
+		color: red;
+	}
+	.top-text
+	{
+		 margin-top: 3px;
+         float: left;
+         height: 24px;
+    }
+	.top-submit
+	{
+		 background-color: #6AAA05;
+         border: none;
+         padding: 0px;
+         width: 50px;
+         height: 24px;
+         margin-top: 3px;
+         float: left;
+         color: white;
+         border-top-right-radius: 5px;
+         border-bottom-right-radius: 5px;
+	}
+	.main
+	{
+		width:980px;height:75px;
+		margin:0 auto;
+	}
+	.main>div
+	{
+		float:left;
+	}
+	.main>.main-left-1
+	{
+		width:177px;height: 70px;
+		margin-top: 3px;
+		cursor: pointer;
+	}
+	.main>.main-left-2
+	{
+		width:72px;height:71px;
+		margin-top: 3px;
+		margin-left: 15px;
+	}
+	.main>.main-left-2>img
+	{
+		width:53px;height:53px;
+		margin:0 9.5px;
+		line-height:18px;
+		cursor: pointer;
+	}
+	.main>.main-middle>div
+	{
+		float:left;
+	}
+	.main>.main-middle
+	{
+		width: 502px;height:55px;
+		margin-top: 10px;margin-left: 20px;
+	}
+	.main>.main-middle>.middle-1
+	{
+		width:9px;height: 14px;
+		margin-right: 5px;margin-top: 20px;
+		cursor: pointer;
+		color: #76c6fe;
+		font-weight:bold;
+
+	}
+	.main>.main-middle>.middle-2,.middle-3,.middle-4,.middle-5,.middle-6
+	{
+		width: 70px;height: 55px;
+		margin-left: 22px;
+		cursor: pointer;
+	}
+	.main>.main-middle>.middle-7
+	{
+		width:9px;height: 14px;
+		margin-left: 16px;margin-top: 20px;
+		cursor: pointer;
+		color: #76c6fe;
+		font-weight:bold;
+	}
+	.main>.main-right
+	{
+		width: 190px;height: 55px;
+		padding-top: 10px;padding-right: 2px;
+		cursor: pointer;
+	}
+	.main>.main-right>div
+	{
+		float: left;
+		margin-left:9px;
+	}
+	.main1
+	{
+		width: 980px;height: 36px;
+		margin:0 auto;
+		line-height: 25px;
+		font-size: 14px;
+		background-color: #72B604;
+        color: white;
+		padding:6px 2px;
+	}
+	.main1>.main1-ula
+	{
+		float: left;
+		width:801px;
+		margin-left: 3px;
+	}
+	.main1>.main1-ula>li
+	{
+		float: left;
+		width: 40px;height: 25px;
+		line-height: 25px;
+		margin-left: 2px;
+		border-radius: 3px;
+		font-weight:bold;
+		cursor: pointer;
+		text-align: center;
+	}
+	.main1>.main1-ula>li>a
+	{
+		color: white;
+	}
+	.main1>.main1-ula>li:hover
+	{
+		background-color: white;
+	}
+	.main1>.main1-ula>li>a:hover
+	{
+		color: #72B604;
+		text-decoration: none;
+	}
+
+	.main1>.main1-ula>.lia
+	{
+		width: 55px;height: 25px;
+	}
+	.main1>.main1-ula>.lib
+	{
+		width:70px;height: 25px;
+	}
+	.main1>.main1-ulb
+	{
+		float: right;
+	}
+	.main1>.main1-ulb>li
+	{
+		float: left;
+		cursor: pointer;
+		background-color: white;
+		color: #72B604;
+		margin-right: 3px;
+	}
+	.main1>.main1-ulb>.lic
+	{
+		width: 55px;height: 25px;
+		text-align: center;
+	}
+	.main1>.main1-ulb>.lid
+	{
+		width: 70px;height: 25px;
+		text-align: center;
+	}
+	.main1>.main1-ulb>li>a
+	{
+		color:  #72B604;
+	}
+	.main2
+	{
+		width: 980px;height:34px;
+		margin:0 auto;
+		background-color: #eeffd9;
+	}
+	.main2>div
+	{
+		float:left;
+	}
+	.main2>.main2-left
+	{
+		background-position: -61px -224px;
+   		width: 42px;
+    	padding-right: 5px;
+    	height: 34px;
+    	line-height: 34px;
+    	text-align: center;
+    	background-color: #c0eb7c;
+	}
+	.main2>.main2-left>a
+	{
+		color:#389904;
+	}
+	.main2>.main2-left>a:hover
+	{
+		color: red;
+	}
+	.main2>.main2-middle>div
+	{
+		float:left;
+	}
+	.main2>.main2-right
+	{
+		float: right;
+		margin-right: 5px;
+	}
+	.main2>.main2-right>div
+	{
+		float: left;
+		width: 114px; height: 24px;
+		margin-left: 5px;
+		line-height: 22px;
+		margin-top: 5px;
+	}
+	.main2>.main2-right>.lan
+	{
+		border:1px solid #69b7fe;
+		background-color: #69b7fe;
+		border-radius: 3px;
+		text-align: center;
+	}
+	.main2>.main2-right>.lan>a
+	{
+		color: white;
+	}
+	.main2>.main2-right>.lan>a:hover
+	{
+		text-decoration: none;
+	}
+	.main2>.main2-right>.hong
+	{
+		border:1px solid #ff6fa2;
+		background-color:#ff6fa2;
+		border-radius: 3px;
+		text-align: center;
+	}
+	.main2>.main2-right>.hong>a
+	{
+		color: white;
+	}
+	.main2>.main2-middle
+	{
+		width: 525px;height: 34px;
+		padding-top: 5px;
+		padding-right: 9px;padding-left: 6px;
+	}
+	.main2>.main2-middle>div>div
+	{
+		float: left;
+	}
+	.main2>.main2-middle>div>div>a
+	{
+		color: red;
+	}
+	.main2>.main2-middle>div
+	{
+		line-height: 24px;
+    	font-weight: bold;margin-left: 10px;
+	}
+	.main2>.main2-middle>.main2-middle-1
+	{
+		width: 76.938px;height: 24px;
+	}
+	.main2>.main2-middle>.main2-middle-2
+	{
+		width: 113.641px;height: 24px;
+	}
+	.main2>.main2-middle>.main2-middle-3
+	{
+		width:101.406px;height: 24px;
+	}
+	.main2>.main2-middle>.main2-middle-4
+	{
+		width: 89.172px;height:24px;
+	}
+	.tuwen
+	{
+		margin-left: 5px;
+	}
+	.main3
+	{
+		width: 980px;height: 238px;
+		margin:0 auto;
+		font-size: 12px;
+	}
+	.main3>.main3-top>div
+	{
+		float:left;
+	}
+	.main3>.main3-top
+	{
+	`	width: 980px;height: 116px;
+	}
+	.main3>.main3-top>.main3-top-left,.main3-top-right
+	{
+		width:489px;height: 116px;
+	}
+	.main3>.main3-top>div>div>ul
+	{
+		margin-top: 5px;
+	}
+	.main3>.main3-top>div>div>ul>li
+	{
+		float: left;
+	}
+	.main3>.main3-footer>div>ul>li
+	{
+		float: left;
+	}
+	.main3>.main3-top>.main3-top-left>.hang1,.hang2,.hang3,.hang4
+	{
+		width: 489px;height: 24px;
+		line-height: 24px;
+	}
+	.main3>.main3-top>.main3-top-right>.hang1,.hang2,.hang3,.hang4
+	{
+		width: 489px;height: 24px;
+		line-height: 24px;
+	}
+	.main3>.main3-top>.main3-top-left>.hang1>ul>li
+	{
+		margin-right: 12px;
+	}
+	.main3>.main3-top>.main3-top-left>.hang2>ul>li
+	{
+		margin-right: 12px;
+	}
+	.main3>.main3-top>.main3-top-left>.hang3>ul>li
+	{
+		margin-right: 12px;
+	}
+	.main3>.main3-top>.main3-top-left>.hang4>ul>li
+	{
+		margin-right: 12px;
+	}
+	.main3>.main3-top>.main3-top-right>.hang1>ul>li
+	{
+		margin-right: 12px;
+	}
+	.main3>.main3-top>.main3-top-right>.hang2>ul>li
+	{
+		margin-right: 12px;
+	}
+	.main3>.main3-top>.main3-top-right>.hang3>ul>li
+	{
+		margin-right: 12px;
+	}
+	.main3>.main3-top>.main3-top-right>.hang4>ul>li
+	{
+		margin-right: 12px;
+	}
+	.hangbiao
+	{
+		width: 32px;height: 22px;
+		padding-left: 2px;
+		margin-right: 8px;margin-left: 5px;	
+		border:1px solid #a1e339;
+		color: #6aaa05;
+		cursor: pointer;
+	}
+	.main3>.main3-footer
+	{
+		width: 980px;height: 116px;
+		line-height: 24px;
+	}
+	.main3>.main3-footer>div>ul>li
+	{
+		margin-top: 5px;
+	}
+	.main3>.main3-footer>div>ul>li
+	{
+		margin-right: 12.5px;
+	}
+	.main3>.main3-footer>div>ul>.cc
+	{
+		margin-left: -12px;
+	}
+	.main3>div>div>div>ul>li>a
+	{
+		color: #484848;
+	}
+	.main3>div>div>div>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main3>div>div>ul>li>a
+	{
+		color: #484848;
+	}
+	.main3>div>div>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main3>div>div>.hang7>li>a
+	{
+		color: #389904;
+	}
+	.main3>div>div>.hang8>li>a
+	{
+		color: #389904;
+	}
+	.hangbiao0
+	{
+		width: 58px;height: 18px;
+		line-height: 20px;
+		padding-left: 4px;
+		margin-top: 0px;
+		margin-left: 5px;
+		margin-right: 8px;
+		border:1px solid #f7ba6d;
+		color: #ed7811;
+		cursor: pointer;
+	}
+	.hangbiao00
+	{
+		width: 58px;height: 18px;
+		padding-left: 5px;
+		margin-left: 5px;
+		margin-right: 8px;
+		border:1px solid #429bec;
+		color: #429bec;
+		line-height: 18px;
+		cursor: pointer;
+	}
+	.main4
+	{
+		width: 980px;height: 35px;
+		line-height: 34px;
+		margin:0 auto;
+		border-top:1px solid #c0eb7c;
+		border-bottom: 1px solid #c0eb7c;
+	}
+	.main4>ul>li
+	{
+		float: left;
+		width:auto;height: auto;
+		padding-right: 12px;
+	}
+	.main4>ul>li>a
+	{
+		color: #484848;
+	}
+	.main4>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main4>ul>.main4-left
+	{
+		width: 99px;height: 34px;
+		margin-right: 12px;
+		text-align: center;
+		color:#484848;font-size: 14px;
+		font-weight:bold;
+	}
+	.main5
+	{
+		width: 980px;height:42px;
+		background-color: #fff;
+		line-height: 42px;
+   		font-size: 12px;
+        margin: 0 auto 5px;
+        border-top: 1px solid #c0eb7c;
+        border-bottom: 1px solid #c0eb7c;
+        margin-top: 5px;
+	}
+	.main5>div
+	{
+		float:left;
+	}
+	.main5>.main5-middle>div
+	{
+		margin-left:5px;
+	}
+	.main5>div>div>div
+	{
+		float: left;
+		margin-left:5px;
+	}
+	.main5>.main5-left
+	{
+		width: 97px;height: 42px;
+		padding-left: 27px;
+		margin-right: 6px;
+		background-color: #71bc16;
+		font-size: 13px;
+	}
+	.main5>.main5-middle
+	{
+		width:831px;height: 42px;
+	}
+	.main5>.main5-right
+	{
+		width: 46px;height: 42px;
+		text-align: center;
+		background-color: #d2f2a5;
+	}
+	.main5>.main5-middle>div>div>img
+	{
+		margin-top: 2px;
+		margin-left:8px;
+	}
+	.main5>.main5-left>a
+	{
+		color: white;
+	}
+	.main5>.main5-middle>div>div>a
+	{
+		color: #389904;
+	}
+	.main5>.main5-middle>div>div>a:hover
+	{
+		color: red;
+	}
+	.main5>.main5-right>a
+	{
+		color: #389904;
+	}
+	.main5>.main5-right>a:hover
+	{
+		color: white;
+	}
+	.main5>.main5-right:hover
+	{
+		background-color: #389904;
+	}
+	.main6
+	{
+		background: #fff;
+		width: 978px;
+    	height: 146px;
+  	  	border: 1px solid #c0eb7c;
+  	  	margin:0 auto;
+	}
+	.main6>.main6-left
+	{
+		float: left;
+		width: 15px;height: 68px;
+		line-height: 68px;
+		margin-top: 35px;
+		cursor: pointer;
+	}
+	.main6>.main6-right
+	{
+		float:right;
+		width: 15px;height: 68px;
+		line-height: 68px;
+		margin-top: 35px;
+		cursor: pointer;
+	}
+	.main6>.main6-middle
+	{
+		float: left;
+		width: 936px;height: 140px;
+		margin-left: 7px;
+    	padding-top: 6px;
+	}
+	.main6>.main6-middle>.main6-1>div
+	{
+		float: left;
+		display: inline;
+		width: 72px;
+		margin:3px 3px 2px;
+		text-align: center;
+		font-size: 12px;
+	}
+	.main6>.main6-middle>.main6-2>div
+	{
+		float: left;
+		display: inline;
+		width: 72px;
+		margin:3px 3px 2px;
+		text-align: center;
+		font-size: 12px;
+	}
+	.main6>.main6-middle>div>div>a
+	{
+		color: #484848;
+	}
+	.main6>.main6-middle>div>div>a:hover
+	{
+		color: red;
+	}
+	.main7
+	{
+		width: 980px;height: 2564px;
+		margin:10px auto;
+	}
+	.main7>.main7-left
+	{
+		width: 720px;height: 2564px;
+		float: left;
+	}
+	.main7>.main7-right
+	{
+		width: 246px;height: 2564px;
+		float: right;
+	}
+	.main7>.main7-left>.main7-left-div1
+	{
+		height: 1905px;
+		border:1px solid #c0eb7c;
+	}
+	.main7>.main7-left>.main7-left-div1>.main7-left-div1-top
+	{
+		height: 32px;
+		line-height: 32px;
+		background-color: #e4f9ca;
+	}
+	.main7>.main7-left>.main7-left-div1>.main7-left-div1-top>.main7-top1
+	{
+		width: 126px;height: 32px;
+		padding-left: 16px;
+	}
+	.main7>div>div>div>div
+	{
+		float: left;
+	}
+	.main7>.main7-left>.main7-left-div1>.main7-left-div1-top>.main7-top2
+	{
+		width: 345.469px;height: 32px;
+	}
+	.main7>div>div>div>.main7-top2
+	{
+		float: right;
+	}
+	.main7>div>div>div>div>ul>li
+	{
+		float: left;
+		width: auto;height: auto;
+		margin-left: 30px;
+	}
+	.main7>div>div>div>div>ul>li>a
+	{
+		color: #448230;
+	}
+	.main7>div>div>div>div>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main7>div>div>div>ul
+	{
+		padding:7px 5px;
+	}
+	.main7>div>div>div>ul>li
+	{
+		float: left;
+		width: 95px;height: 98px;
+		margin-left: 5px;
+		padding-top: 3px;
+		cursor: pointer;
+	}
+	.main7>div>div>div>ul>li>img
+	{
+		width: 72px;height: 72px;
+		margin-left: 11.5px;
+	}
+	.main7>div>div>div>ul>li>p
+	{
+		text-align: center;
+	}
+	.main7>div>div>div>ul>li>p>a
+	{
+		color:#484848;
+	}
+	.main7>div>div>div>ul>li>p>a:hover
+	{
+		color:red;
+	}
+	.main7>.main7-left>.main7-left-div2
+	{
+		width: 720px;height: 240px;
+		border:1px solid #c0eb7c;
+		margin-top: 10px;
+	}
+	.main7>.main7-left>.main7-left-div2>.main7-left-div2-top
+	{
+		height: 32px;
+		line-height: 32px;
+		background-color: #e4f9ca;
+	}
+	.main7>div>div>div>div>a
+	{
+		color:#448230;
+	}
+	.main7>div>div>div>div>a:hover
+	{
+		color:red;
+	}
+	.main7>.main7-left>.main7-left-div3
+	{
+		width: 720px;height: 240px;
+		border:1px solid #c0eb7c;
+		margin-top: 10px;
+	}
+	.main7>.main7-left>.main7-left-div3>.main7-left-div3-top
+	{
+		height: 32px;
+		line-height: 32px;
+		background-color: #e4f9ca;
+	}
+	.main7>.main7-left>.main7-left-div4
+	{
+		width: 720px;height: 147px;
+		border:1px solid #8ddcf7;
+		margin-top: 10px;
+	}
+	.main7>.main7-left>.main7-left-div4>.main7-left-div4-top
+	{
+		height: 34px;
+		line-height: 34px;
+		background-color:#d4f4ff;
+	}
+	.main7>div>div>.main7-left-div4-footer>ul>li
+	{
+		width:145px;height: 95px;
+		line-height: 22px;
+		margin:0 15px;
+	}
+	.main7>div>div>.main7-left-div4-footer>ul>li>img
+	{
+		width: 145px;height: 70px;
+		margin-left: 5.5px;
+	}
+	.main7>.main7-right>.divf
+	{
+		width: 246px;height: 380px;
+		border:1px solid #c0eb7c;
+	}
+	.main7>.main7-right>.divf>.divf-top
+	{
+		width:243px;height: 32px;
+		line-height: 32px;
+		background-color:#e4f9ca; 
+	}
+	.main7>.main7-right>.divf>.divf-footer>div
+	{
+		clear: left;
+		width: 218px;height: 56px;
+		padding-left: 5px;
+		margin-top:12px;
+		margin-left: 8px;
+		display: flex;
+	}
+	.main7>.main7-right>.divf>.divf-footer>div>div
+	{
+		margin-left: 5px;
+	}
+	.main7>.main7-right>.divf>.divf-footer>div>div>a>.p1
+	{
+		color: #000;
+	}
+	.main7>.main7-right>.divf>.divf-footer>div>div>a>.p2
+	{
+		margin-top: 7px;
+		color: #929292;
+	}
+	.main7>.main7-right>.divf>.divf-footer>div>div>a:hover>p
+	{
+		color: red;
+	}
+	.main7>.main7-right>.divg
+	{
+		width:246px;height: 494px;
+		border:1px solid #c0eb7c;
+		margin-top: 10px;
+	}
+	.main7>.main7-right>.divg>.divg-top
+	{
+		width:243px;height: 32px;
+		line-height: 32px;
+		background-color:#e4f9ca;
+	}
+	.main7>.main7-right>.divg>.divg-footer
+	{
+		margin-top: 10px;
+	}
+	.main7>.main7-right>.divg>.divg-footer>div>ul>li
+	{
+		margin: 0px;
+		width: 81px;height: 86px; 
+		float: left;
+		line-height: 12px;
+	}
+	.main7>.main7-right>.divg>.divg-footer>div>ul>li>a>img
+	{
+		width:72px;height:62px;
+		margin:0 4.5px;
+	}
+	.main7>.main7-right>.divg>.divg-footer>div>ul>li>a>p
+	{
+		width:81px;height:26px;
+		text-align: center;
+	}
+	.main7>.main7-right>.divh
+	{
+		width:246px;height: 453px;
+		border:1px solid #c0eb7c;
+		margin-top: 10px;
+	}
+	.main7>.main7-right>.divh>.divh-top
+	{
+		width:243px;height: 32px;
+		line-height: 32px;
+		background-color:#e4f9ca;
+	}
+	.main7>.main7-right>.divh>.divh-footer>.footer1>img
+	{
+		width: 220px;height: 120px;
+		margin:10px 10px 0px;
+		cursor: pointer;
+	}
+	.main7>.main7-right>.divh>.divh-footer>.footer2
+	{
+		width: 246px;height: 279px;
+		padding-top: 10px;
+	}
+	.main7>.main7-right>.divh>.divh-footer>.footer2>ul>li
+	{
+		width: 106px;height: 93px;
+		margin-left: 11px;
+	}
+	.main7>.main7-right>.divh>.divh-footer>.footer2>ul>li>a>p
+	{
+		text-align: center;
+	}
+	.main7>.main7-right>.divj
+	{
+		width:246px;height: 497px;
+		border:1px solid #c0eb7c;
+		margin-top: 10px;
+	}
+	.main7>.main7-right>.divj>.divh-top
+	{
+		width:243px;height: 32px;
+		line-height: 32px;
+		background-color:#e4f9ca;
+	}
+	.main7>.main7-right>.divj>.divj-footer>div
+	{
+		width: 228px;height: 93px;
+		margin-left:10px;
+		margin-top: 10px;
+		display: flex;
+	}
+	.main7>.main7-right>.divj>.divj-footer>img
+	{
+		width:224px;height: 44px;
+		margin:10px 10px 0;
+	}
+	.main7>.main7-right>.divj>.divj-footer>div>.pppp
+	{
+		width: 130px;height: 64px;
+		padding-left: 5px;padding-top: 8px;
+	}
+	.main7>.main7-right>.divj>.divj-footer>div>.pppp>.pl
+	{
+		width: 100px;height: 12px;
+		margin-top:12px;
+	}
+	.main7>.main7-right>.divk
+	{
+		width:246px;height: 222px;
+		border:1px solid #c0eb7c;
+		margin-top: 10px;
+	}
+	.main7>.main7-right>.divk>.divh-top
+	{
+		width:243px;height: 32px;
+		line-height: 32px;
+		background-color:#e4f9ca;
+	}
+	.main7>.main7-right>.divk>.divk-footer
+	{
+		width: 246px;height: 180px; 
+	}
+	.main7>.main7-right>.divk>.divk-footer>ul>li
+	{
+		width: 66px;height: 90px;
+		margin-left: 8px;
+	}
+	.main7>.main7-right>.divk>.divk-footer>ul>li>a>p
+	{
+		text-align: center;
+	}
+	.main7>.main7-right>.divk>.divk-footer>ul>li>a
+	{
+		color: #484848;
+	}
+	.main7>.main7-right>.divk>.divk-footer>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main7>.main7-right>.divu
+	{
+		width: 246px;height:464.5px;
+		border:1px solid #c0eb7c;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+	.main7>.main7-right>.divu>.divh-top
+	{
+		width:243px;height: 32px;
+		line-height: 32px;
+		background-color:#e4f9ca;
+	}
+	.main7>.main7-right>.divu>.divu-footer
+	{
+		width: 246px;height:372px;
+	}
+	.main7>.main7-right>.divu>.divu-footer>ul>li
+	{
+		width: 106px;height:93px;
+		margin-left: 7.5px; 
+	}
+	.main7>.main7-right>.divu>.divu-footer>ul>li>a>p
+	{
+		text-align: center;
+	}
+	.main7>.main7-right>.divu>.divu-footer>ul>li>a
+	{
+		color: #484848;
+	}
+	.main7>.main7-right>.divu>.divu-footer>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main8
+	{
+		width: 980px;height:1027px;
+		margin:10px auto;
+		padding-bottom: 8px;
+		border:1px solid #c0eb7c;
+	}
+	.main8-top
+	{
+		width:978px;height:32px;
+		line-height:32px;
+		background-color: #e4f9ca; 
+	}
+	.main8-top>div
+	{
+		float: left;
+	}
+	.main8-top>.main8-top-left
+	{
+		width: 84px;height: 32px;
+		margin-left: 9px;
+		font-size: 14px;
+	}
+	.main8-top>.main8-top-right
+	{
+		float: right;
+		margin-right: 14px;
+	}
+	.main8-top>div>a
+	{
+		color: #484848;
+	}
+	.main8-top>div>a:hover
+	{
+		color: red;
+	}
+	.main8-footer
+	{
+		width: 973px;height:980px;
+		padding-top: 15px;
+		padding-left: 5px; 
+	}
+	.main8-footer>ul>li
+	{
+		width:96px;height:95px;
+		padding-top: 3px;
+		margin-left: 11px; 
+		float: left;
+	}
+	.main8-footer>ul>li>a>img
+	{
+		width: 72px;height:72px;
+		margin:0 12px; 
+	}
+	.main8-footer>ul>li>a>p
+	{
+		text-align: center;
+	}
+	.main8-footer>ul>li>a
+	{
+		color: #484848;
+	}
+	.main8-footer>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main9
+	{
+		width:980px;height: 697px;
+		margin:0 auto;
+		border:1px solid #f9c3e2;
+	}
+	.main9>.main9-top
+	{
+		width:980px;height: 33px;
+		line-height: 33px;
+		background-color: #ffe0f3;
+	}
+	.main9>.main9-top>.main9-top-left
+	{
+		float: left;
+		width: 84px;height: 33px;
+		margin-left: 20px;
+	}
+	.main9>.main9-top>.main9-top-left>a
+	{
+		font-size: 14px;
+		color: #f228c0;
+		font-weight: bold;
+	}
+	.main9>.main9-top>.main9-top-right
+	{
+		float: right;
+		margin-right:26px;
+	}
+	.main9>.main9-top>.main9-top-right>a
+	{
+		color: #f14bcd;
+	}
+	.main9>.main9-footer
+	{
+		width:980px;height: 664px;
+	}
+	.main9>.main9-footer>.left
+	{
+		width: 700px;height: 664px;
+		float: left;
+	}
+	.main9>.main9-footer>.right
+	{
+		width: 255px;height: 656px;
+		float: right;
+	}
+	.main9>.main9-footer>.left>.div0
+	{
+		width: 750px;height: 404px;
+		padding-top: 10px;
+		padding-left: 5px;
+	}
+	.main9>.main9-footer>.left>.div0>ul>li
+	{
+		width: 95px;height: 98px;
+		padding:3px 2px 2px 0;
+		float: left;
+		margin-left: 3px;
+	}
+	.main9>.main9-footer>.left>.div0>ul>li>a>img
+	{
+		width: 72px;height: 72;
+		margin:0 11.500px;
+	}
+	.main9>.main9-footer>.left>.div00
+	{
+		width: 105px;height: 18px;
+		line-height: 18px;
+		margin:12px 0 0 10px;
+		padding-left: 20px;
+		font-size: 14px;
+		font-weight: bold;
+		color: #f228c9;
+	}
+	.main9>.main9-footer>.left>.div000
+	{
+		width: 750px;height: 202px;
+		padding:10px 0;
+		margin-top: 8px;
+	}
+	.main9>.main9-footer>.left>.div000>ul>li
+	{
+		width: 112px;height: 98px;
+		margin:0 14px;
+		float: left;
+	}
+	.main9>.main9-footer>.left>.div000>ul>li>a>img
+	{
+		width: 112px;height: 72px;
+	}	
+	.main9>.main9-footer>.right>.div8
+	{
+		width: 253px;height: 258px;
+		margin:10px 0 0 2px;
+ 	}
+ 	.main9>.main9-footer>.right>.div8>ul>li
+ 	{
+ 		width: 81px;height: 86px;
+ 		float: left;
+ 	}
+ 	.main9>.main9-footer>.right>.div8>ul>li>a>img
+ 	{
+ 		width: 72px;height: 62px;
+ 		margin:0 4.5px;
+ 	}
+ 	.main9>.main9-footer>div>div>ul>li>a
+ 	{
+ 		text-align: center;
+ 		color: #484848;
+ 	}
+ 	.main9>.main9-footer>div>div>ul>li>a:hover
+ 	{
+ 		color:red;
+ 	}
+ 	.main9>.main9-footer>.right>.div88
+ 	{
+ 		width: 238px;height: 148px;
+ 		margin-top: 10px;
+ 	}
+ 	.main9>.main9-footer>.right>.div888
+ 	{
+ 		width: 260px;height: 216px;
+ 		margin-top: 10px;
+ 	}
+ 	.main9>.main9-footer>.right>.div888>ul>li
+ 	{
+ 		width: 114px;height: 108px;
+ 		margin-right:14px;
+ 		float: left;
+ 	}
+ 	.main9>.main9-footer>.right>.div888>ul>li>a>img
+ 	{
+ 		width: 110px;height: 76px;
+ 		border:1px solid #f8c3e2;
+ 		padding:1px;
+ 	}
+ 	.main10
+	{
+		width: 980px;height:677px;
+		margin:10px auto;
+		padding-bottom: 8px;
+		border:1px solid #c0eb7c;
+	}
+	.main10>.main10-top
+	{
+		width: 978px;height: 72px;
+		line-height: 32px;
+		background-color: #e4f9ca;
+	}
+	.main10>.main10-top>div>ul
+	{
+		margin-top: 8px;
+		margin-left:80px;
+		display: flex;
+	}
+	.main10>.main10-top>div>ul>li
+	{
+		width: auto;height: 22px;
+		line-height: 22px;
+		border:1px solid #c0eb7c;
+		padding:0 5px;
+		margin-right: 5px;
+		background-color: white;
+	}
+	.main10>.main10-top>div>ul>li>a
+	{
+		color: #484848;
+	}
+	.main10>.main10-top>div>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main10>.main10-top>div>span>a
+	{
+		color: #448230;
+	}
+	.main10>.main10-top>div>span>a:hover
+	{
+		color: red;
+	}
+	.main10>.main10-footer>div
+	{
+		float: left;
+	}
+	.main10>.main10-footer>.left
+	{
+		width: 712px;height: 588px;
+		padding:15px 0 0 5px;
+	}
+	.main10>.main10-footer>.left>ul>li
+	{
+		width: 96px;height: 95px;
+		padding-top: 3px;
+		margin-left: 5px;
+		float: left;
+	}
+	.main10>.main10-footer>.left>ul>li>a>img
+	{
+		width: 72px;height: 72px;
+		margin:0 12px;
+	}
+	.main10>.main10-footer>.right
+	{
+		width:245px;height: 596px;
+		margin:5px 8px 0 0;
+	}
+	.main10>.main10-footer>.right>.div1
+	{
+		width: 235px;height: 32px;
+		line-height: 32px;
+		margin:14px 5px 10px 10px;
+		text-align: center;
+		background-color: #81c90d;
+	}
+	.main10>.main10-footer>.right>.div1>a
+	{
+		font-size: 18px;
+		color: white;
+	}
+	.main10>.main10-footer>.right>.div2
+	{
+		width: 240px;height: 180px;
+		border:1px solid #c0eb7c;
+		margin-left: 7.5px;
+		padding-top: 10px;
+	}
+	.main10>.main10-footer>.right>.div2>a>img
+	{
+		width: 220px;height: 130px;
+		margin:0 10px;
+	}
+	.main10>.main10-footer>.right>.div2>a>p
+	{
+		text-align: center;
+		font-size: 14px;
+	}
+	.main10>.main10-footer>.right>.div3
+	{
+		width: 240px;height: 300px;
+		border:1px solid #c0eb7c;
+		margin-left: 7.5px;padding-left: 2px;
+		padding-top: 10px;
+	}
+	.main10>.main10-footer>.right>.div3>ul>li
+	{
+		width: 106px;height: 96px;
+		margin-left: 8px;
+		float: left;
+	}
+	.main10>div>div>ul>li>a
+	{
+		color:#484848;
+		text-align:center;
+	}
+	.main10>div>div>ul>li>a:hover
+	{
+		color:red;
+	}
+	.main10>div>div>div>ul>li>a
+	{
+		color:#484848;
+		text-align:center;
+	}
+	.main10>div>div>div>ul>li>a:hover
+	{
+		color:red;
+	}
+	.main11
+	{
+		width: 980px;height:257px;
+		margin:10px auto;
+	}
+	.main11>div
+	{
+		float: left;
+	}
+	.main11>.main11-left
+	{
+		width: 483px;height: 255px;
+		border:1px solid #c0eb7c;
+	}
+	.main11>.main11-right
+	{
+		width: 483px;height: 255px;
+		border:1px solid #c0eb7c;
+		margin-left: 12px;
+	}
+	.main11>div>.top
+	{
+		width: 481px;height: 32px;
+		line-height: 32px;
+		background-color: #eeffd9;
+	}
+	.main11>div>.top>.top1
+	{
+		font-size: 14px;
+		font-weight: bold;
+		float: left;
+		margin-left: 16px;
+	}
+	.main11>div>.top>.top2
+	{
+		float: right;
+		margin-right: 12px;
+	}
+	.main11>div>div>div>a
+	{
+		color:#448230;
+	}
+	.main11>div>div>div>a:hover
+	{
+		color: red;
+	}
+	.main11>div>.footer
+	{
+		width:480px;height: 210px;
+		margin-top: 10px;
+	}
+	.main11>div>.footer>ul>li
+	{
+		width: 95px;height: 90px;
+		line-height: 18px;
+		padding-top: 3px;
+		margin-bottom: 10px;
+		float: left;
+	}
+	.main11>div>.footer>ul>li>a>img
+	{
+		width: 72px;height: 72px;
+		margin:0 11.5px;
+	}
+	.main11>div>.footer>ul>li>a
+	{
+		text-align: center;
+		color: #484848;
+	}
+	.main11>div>.footer>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main12
+	{
+		width: 978px;height: 243px;
+		border:1px solid #c0eb7c;
+		margin:10px auto;
+		padding-bottom: 8px;
+	}
+	.main12>.top
+	{
+		width: 978px;height: 32px;
+		line-height: 32px;
+		background-color: #eeffd9;
+	}
+	.main12>.top>.left
+	{
+		font-size: 14px;
+		font-weight: bold;
+		float: left;
+		margin-left: 16px;
+	}
+	.main12>.top>.right
+	{
+		float: right;
+		margin-right: 12px;
+	}
+	.main12>div>div>a
+	{
+		color:#448230;
+	}
+	.main12>div>div>a:hover
+	{
+		color: red;
+	}
+	.main12>.footer
+	{
+		width: 973px;height: 196px;
+		padding:15px 0 0 5px;
+	}
+	.main12>.footer>ul>li
+	{
+		width: 96px;height: 95px;
+		padding-top: 3px;
+		margin-left:11px;
+		float: left;
+	}
+	.main12>.footer>ul>li>a>img
+	{
+		width: 72px;height: 72px;
+		margin:0 12px;
+	}
+	.main12>div>ul>li>a
+	{
+		color:#448230;
+		text-align: center;
+	}
+	.main12>div>ul>li>a:hover
+	{
+		color: red;
+	}
+	.main13
+	{
+		width: 978px;height: 66px;
+		padding:10px 0;
+		margin:10px auto;
+		border:1px solid #c0eb7c;
+		line-height: 15px;
+		text-align: center;
+	}
+	.main13>ul
+	{
+		clear: left;
+	}
+	.main13>ul>li
+	{
+		margin-left: 10px;
+		float: left;
+	}
+	.main13>ul>li>a
+	{
+		color: #5da93d;
+	}
+	.main13>ul>li>a:hover
+	{
+		color: red;
+	}
+	footer
+	{
+		width: 978px;height: 166px;
+		padding:10px 0;
+		margin:10px auto;
+		border:1px solid #c0eb7c;
+	}
+	footer>.div1
+	{
+		width: 960px;height: 60px;
+		margin:0 9px;
+	}
+	footer>.div1,.div2>p
+	{
+		text-align: center;
+		line-height: 20px;
+		color: #8e8e8e;
+	}
+	footer>.div2
+	{
+		width: 978px;height: 96px;
+		padding-top:10px;
+
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="top">
+			<div class="top-left">
+				<div><a href="">收藏4399</a></div>
+				<div><a href="">保存到桌面</a></div>
+				<div><input type="text" class="top-text">
+				<input type="submit" value="搜索" class="top-submit" style="cursor: pointer;">
+				</div>
+				<div><a href="" style="color:#fb6400;">搞笑图片</a></div>
+			</div>
+			<div class="top-right">
+				<div><a href="">登录</a></div>
+				<div><a href="">注册</a></div>
+				<div><a href="">我玩过的</a></div>
+				<div><a href="" style="color:#fb6400;">猜你喜欢</a></div>
+				<div><a href="" style="color:#0098df;">换肤</a></div>
+			</div>
+		</div>
+	</header>
+	<div class="main">
+		<div class="main-left-1">
+			<img src="./image2/2.jpg">
+		</div>
+		<div class="main-left-2">
+			<img src="./image2/3.jpg"><p style="margin-left: 4.7px;"><a href="" style="color: #666">4399游戏盒</a></p>
+		</div>
+		<div class="main-middle">
+			<div class="middle-1">〈</div>
+			<div class="middle-2"><img src="./image2/4.jpg"></div>
+			<div class="middle-3"><img src="./image2/5.jpg"></div>
+			<div class="middle-4"><img src="./image2/6.jpg"></div>
+			<div class="middle-5"><img src="./image2/7.jpg"></div>
+			<div class="middle-6"><img src="./image2/8.jpg"></div>
+			<div class="middle-7">〉</div>
+		</div>
+		<div class="main-right">
+			<div><img src="./image2/9.jpg"></div>
+			<div><img src="./image2/10.jpg"></div>
+		</div>
+	</div>
+	<div class="main1">
+		<ul class="main1-ula">
+			<li style="background-color:white;color:#70b305">首页</li>
+			<li><a href="">动作</a></li>
+			<li><a href="">体育</a></li>
+			<li><a href="">益智</a></li>
+			<li><a href="">射击</a></li>
+			<li><a href="">冒险</a></li>
+			<li><a href="">棋牌</a></li>
+			<li><a href="">策略</a></li>
+			<li><a href="">休闲</a></li>
+			<li><a href="">女生</a></li>
+			<li><a href="">装扮</a></li>
+			<li><a href="">儿童</a></li>
+			<li><a href="">过关</a></li>
+			<li><a href="">双人</a></li>
+			<li><a href="">笑话</a></li>
+			<li><a href="">漫画</a></li>
+			<li class="lia"><a href="">动画片</a></li>
+			<li class="lib"><a href="">手机游戏</a></li>
+		</ul>
+		<ul class="main1-ulb">
+			<li class="lid"><a href="">网页游戏</a></li>
+			<li class="lic"><a href="">游戏吧</a></li>
+		</ul>
+	</div>
+	<div class="main2">
+		<div class="main2-left"><a href="">手游</a></div>
+		<div class="main2-middle">
+			<div class="main2-middle-1">
+				<div><a href=""><img src="./image2/11.jpg"></a>
+				</div>
+				<div class="tuwen"><a href="">地铁跑酷<a></div>
+			</div>
+			<div class="main2-middle-2">
+				<div><a href=""><img src="./image2/12.jpg"></a>
+				</div><div class="tuwen"><a href="">熊出没奇幻空间</a></div>
+			</div>
+			<div class="main2-middle-3">
+				<div><a href=""><img src="./image2/13.jpg"></a>
+				</div><div class="tuwen"><a href="">生死狙击手游</a></div>
+			</div>
+			<div class="main2-middle-4">
+				<div><a href=""><img src="./image2/14.jpg"></a>
+				</div><div class="tuwen"><a href="">疯狂动物园</a></div>
+			</div>
+		</div>
+		<div class="main2-right">
+			<div class="lan"><a href="">安卓手机游戏大全</a></div>
+			<div class="hong"><a href="">免费赚游币Q币</a></div>
+		</div>
+	</div>
+	<div class="main3">
+		<div class="main3-top">
+			<div class="main3-top-left">
+				<div class="hang1">
+					<ul>
+						<li class="hangbiao">专辑</li>
+						<li><a href="" style="color:#fb6400;">王者荣耀同人</a></li>
+						<li><a href="">独家游戏</a></li>
+						<li><a href="">最新游戏</a></li>
+						<li><a href="" style="color:#fb6400;font-weight:bold;">双人小游戏</a></li>
+						<li><a href="">无敌版</a></li>
+						<li><a href="">单人</a></li>
+						<li><a href="">僵尸</a></li>
+						<li><a href="" style="color:#fb6400;">三人</a></li>
+					</ul>
+				</div>
+				<div class="hang2">
+					<ul>
+						<li class="hangbiao">动作</li>
+						<li><a href="">格斗</a></li>
+						<li><a href="">铠甲勇士</a></li>
+						<li><a href="">乐高</a></li>
+						<li><a href="">男生游戏</a></li>
+						<li><a href="">三国</a></li>
+						<li><a href="" style="color:#fb6400;">拳皇</a></li>
+						<li><a href="">变形金刚</a></li>
+						<li><a href="">火柴人</a></li>
+						<li><a href="">七龙珠</a></li>
+					</ul>
+				</div>
+				<div class="hang3">
+					<ul>
+						<li class="hangbiao">益智</li>
+						<li><a href="" style="color:#fb6400;font-weight:bold;">连连看</a></li>
+						<li><a href="">密室逃脱</a></li>
+						<li><a href="">拼图</a></li>
+						<li><a href="">迷宫</a></li>
+						<li><a href="">大富翁</a></li>
+						<li><a href="">找茬</a></li>
+						<li><a href="" style="color:#fb6400;">塔防</a></li>
+						<li><a href="">找东西</a></li>
+						<li><a href="">麻将</a></li>
+						<li><a href="">小火车</a></li>
+					</ul>
+				</div>
+				<div class="hang4">
+					<ul>
+						<li class="hangbiao">体育</li>
+						<li><a href="">赛车</a></li>
+						<li><a href="">卡丁车</a></li>
+						<li><a href="">越野车</a></li>
+						<li><a href="">自行车</a></li>
+						<li><a href="">汽车</a></li>
+						<li><a href="">停车</a></li>
+						<li><a href="">篮球</a></li>
+						<li><a href="">足球</a></li>
+						<li><a href="">过上车</a></li>
+						<li><a href="">台球</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main3-top-right">
+				<div class="hang1">
+					<ul>
+						<li class="hangbiao">儿童</li>
+						<li><a href="">填颜色</a></li>
+						<li><a href="" style="color:#fb6400;font-weight:bold;">儿童故事</a></li>
+						<li><a href="">巧虎</a></li>
+						<li><a href="">熊出没</a></li>
+						<li><a href="">小马宝莉</a></li>
+						<li><a href="">海绵宝宝</a></li>
+						<li><a href="">朵拉</a></li>
+						<li><a href="">奥特曼</a></li>
+						<li><a href="">学习</a></li>
+					</ul>
+				</div>
+				<div class="hang2">
+					<ul>
+						<li class="hangbiao">射击</li>
+						<li><a href="">穿越防线</a></li>
+						<li><a href="">狙击手</a></li>
+						<li><a href="">反恐精英</a></li>
+						<li><a href="">大炮</a></li>
+						<li><a href="">战斗机</a></li>
+						<li><a href="">合金弹头</a></li>
+						<li><a href="">坦克</a></li>
+						<li><a href="">枪战特警</a></li>
+					</ul>
+				</div>
+				<div class="hang3">
+					<ul>
+						<li class="hangbiao">休闲</li>
+						<li><a href="" style="color:#fb6400;">斗地主</a></li>
+						<li><a href="">祖玛</a></li>
+						<li><a href="">黄金矿工</a></li>
+						<li><a href="">消消看</a></li>
+						<li><a href="">吃豆豆</a></li>
+						<li><a href="">泡泡龙</a></li>
+						<li><a href="">直升机</a></li>
+						<li><a href="">农场</a></li>
+						<li><a href="">组装游戏</a></li>
+					</ul>
+				</div>
+				<div class="hang4">
+					<ul>
+						<li class="hangbiao">冒险</li>
+						<li><a href="">超级玛丽</a></li>
+						<li><a href="" style="color:#fb6400;">大鱼吃小鱼</a></li>
+						<li><a href="">动漫游戏</a></li>
+						<li><a href="">冒险岛</a></li>
+						<li><a href="">忍者</a></li>
+						<li><a href="">跑酷</a></li>
+						<li><a href="">战士</a></li>
+						<li><a href="" style="color:#fb6400;">闯关</a></li>
+						<li><a href="">3D游戏</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="main3-footer">
+			<div>
+				<ul class="hang5">
+					<li class="hangbiao">女生</li>
+					<li><a href="">hin萌</a></li>
+					<li><a href="">美图</a></li>
+					<li><a href="">美人鱼</a></li>
+					<li><a href="">公主</a></li>
+					<li><a href="">古代换装</a></li>
+					<li><a href="">做饭</a></li>
+					<li><a href="" style="color:#fb6400;">艾莎</a></li>
+					<li><a href="">化妆</a></li>
+					<li><a href="">美甲</a></li>
+					<li><a href="">婚纱</a></li>
+					<li><a href="">美发</a></li>
+					<li><a href="">餐厅</a></li>
+					<li><a href="">蛋糕</a></li>
+					<li><a href="">礼服</a></li>
+					<li><a href="">布置</a></li>
+					<li><a href="">宠物</a></li>
+					<li><a href="">购物</a></li>
+					<li><a href="">芭比</a></li>
+					<li><a href="">测试</a></li>
+					<li><a href="">明星</a></li>
+					<li><a href="">养成</a></li>
+					<li><a href="">宝贝</a></li>
+					<li><a href="">打工挣钱</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="hang6">
+					<li class="hangbiao">合辑</li>
+					<li><a href="" style="color:#fb6400;">4399完美漂移</a></li>
+					<li><a href="">盗墓笔记</a></li>
+					<li><a href="">三国快打</a></li>
+					<li><a href="">街篮高手</a></li>
+					<li><a href="">小小精灵</a></li>
+					<li><a href="">战天</a></li>
+					<li><a href="" style="color:#fb6400;">梦幻恋舞</a></li>
+					<li><a href="">魔龙之戒</a></li>
+					<li><a href="">少年群侠传</a></li>
+					<li><a href="" style="color:#fb6400;font-weight:bold;">皮卡堂</a></li>
+					<li><a href="">极战联盟</a></li>
+					<li><a href="">4399蓝月传奇铸就辉煌,成就传奇</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="hang7">
+					<li class="hangbiao0">网页游戏</li>
+					<li><a href="">玩个球</a></li>
+					<li><a href="">楚乔传</a></li>
+					<li><a href="">弹弹堂3</a></li>
+					<li><a href="">坦克堂</a></li>
+					<li><a href="" style="color:#fb6400;font-weight:bold;">生死狙击</a></li>
+					<li><a href="">创世联盟</a></li>
+					<li><a href="">战争使命</a></li>
+					<li><a href="">美食大战老鼠</a></li>
+					<li><a href="" style="color:#fb6400;font-weight:bold;">火线精英</a></li>
+					<li><a href="">奥雅之光</a></li>
+					<li><a href="">小花仙</a></li>
+					<li><a href="" style="color:#fb6400;">开心农场</a></li>
+					<li><a href="">七杀</a></li>
+					<li><a href="">三国杀</a></li>
+					<li><a href="">枪战英雄</a></li>
+					<li style="text-align:right;"><a href="">更多>></a></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="hang8">
+					<li class="hangbiao00">H5游戏</li>
+					<li><a href="">百战沙城</a></li>
+					<li><a href="">梦道</a></li>
+					<li><a href="">宝贝星球</a></li>
+					<li><a href="">妖怪宝可萌</a></li>
+					<li><a href="">全民穿越之宫</a></li>
+					<li><a href="">极品三国</a></li>
+					<li><a href="">大富豪3</a></li>
+					<li><a href="">时尚穿越</a></li>
+					<li><a href="">御天传奇</a></li>
+					<li><a href="">谁是大主公</a></li>
+					<li><a href="">传奇世界</a></li>
+					<li><a href="">雄霸武神</a></li>
+					<li><a href="">不服小天王</a></li>
+					<li><a href="">仙泣</a></li>
+					<li class="cc"><a href="">更多>></a></li>
+				</ul>
+			</div>
+		</div >
+	</div>
+	<div class="main4">
+		<ul>
+			<li class="main4-left"><a href="">玩家论坛</a></li>
+			<li><a href="" style="color:#fb6400;">女生频道</a></li>
+			<li><a href="" style="color:#389904;">奔跑吧兄弟</a></li>
+			<li><a href="">鬼话连篇</a></li>
+			<li><a href="">cp处友</a></li>
+			<li><a href="" style="color:#389904;">王者荣耀</a></li>
+			<li><a href="">舞法天女</a></li>
+			<li><a href="" style="color:#fb6400;">热巴饭圈</a></li>
+			<li><a href="">暑假攻略</a></li>
+			<li><a href="" style="color:#389904;">星座测试</a></li>
+			<li><a href="">绘画中心</a></li>
+			<li><a href="" style="color:#389904;">EXO</a></li>
+			<li><a href="" style="color:#389904;">爆笑一刻</a></li>
+			<li><a href="" style="color:#fb6400;">我的世界</a></li>
+			<li><a href="" style="color:#389904;">搞笑表情包</a></li>
+		</ul>
+	</div>
+	<div class="main5">
+		<div class="main5-left"><a href="">我玩过的</a></div>
+		<div class="main5-middle">
+			<div>	
+				<div class=><img src="./image2/15.jpg"></div>
+				<div><a href="">4399热血三国3</a></div>
+			</div>
+			<div>
+			<div><img src="./image2/16.jpg"></div>
+				<div><a href="">4399村长征战团</a></div>
+			</div>
+			<div>
+				<div><img src="./image2/17.jpg"></div>
+				<div><a href="">4399小小精灵</a></div>
+			</div>
+			<div>
+				<div><img src="./image2/18.jpg"></div>
+				<div><a href="">4399弹弹堂3</a></div>
+			</div>
+			<div>
+				<div><img src="./image2/19.jpg"></div>
+				<div><a href="">4399战争使命</a></div>
+			</div>
+			<div>
+				<div><img src="./image2/20.jpg"></div>
+				<div><a href="">4399鬼吹灯</a></div>
+			</div>
+		</div>
+		<div class="main5-right"><a href="">清空</a></div>
+	</div>
+	<div class="main6">
+		<div class="main6-left">〈</div>
+		<div class="main6-middle">
+			<div class="main6-1">
+				<div><a href=""><img src="./image2/21.jpg"><p>二战前线2</p></a></div>
+				<div><a href=""><img src="./image2/22.jpg"><p>赛车</p></a></div>
+				<div><a href=""><img src="./image2/23.jpg"><p>植物大战僵尸</p></a></div>
+				<div><a href=""><img src="./image2/24.jpg"><p>朵拉</p></a></div>
+				<div><a href=""><img src="./image2/25.jpg"><p>熊出没</p></a></div>
+				<div><a href=""><img src="./image2/26.jpg"><p>生死狙击</p></a></div>
+				<div><a href=""><img src="./image2/27.jpg"><p>奥雅之光</p></a></div>
+				<div><a href=""><img src="./image2/28.jpg"><p>西普大陆</p></a></div>
+				<div><a href=""><img src="./image2/29.jpg"><p>4399奥拉星</p></a></div>
+				<div><a href=""><img src="./image2/30.jpg"><p>4399奥比岛</p></a></div>
+				<div><a href=""><img src="./image2/31.jpg"><p>美食大战老鼠</p></a></div>
+				<div><a href=""><img src="./image2/32.jpg"><p>4399赛尔号</p></a></div>
+			</div>
+			<div class="main6-2">
+				<div><a href=""><img src="./image2/33.jpg"><p>女生游戏精选</p></a></div>
+				<div><a href=""><img src="./image2/34.jpg"><p>小花仙</p></a></div>
+				<div><a href=""><img src="./image2/35.jpg"><p style="width: 96px;height: 16px;text-align: left;">4399迷你世界</p></a></div>
+				<div><a href=""><img src="./image2/36.jpg"><p>爆笑一刻</p></a></div>
+				<div><a href=""><img src="./image2/37.jpg"><p style="width: 96px;height: 16px;text-align: left;">4399完美漂移</p></a></div>
+				<div><img src="./image2/38.jpg"><p style="width: 96px;height: 16px;text-align: left;">4399洛克王国</p></a></div>
+				<div><a href=""><img src="./image2/39.jpg"><p>创世联盟</p></a></div>
+				<div><a href=""><img src="./image2/40.jpg"><p>巧虎</p></a></div>
+				<div><a href=""><img src="./image2/41.jpg"><p>皮卡堂过家家</p></a></div>
+				<div><a href=""><img src="./image2/42.jpg"><p>热血精灵派</p></a></div>
+				<div><a href=""><img src="./image2/43.jpg"><p style="width: 96px;height: 16px;text-align: left;">4399奥奇传说</p></a></div>
+				<div><a href=""><img src="./image2/44.jpg"><p>奥义联盟</p></a></div>
+			</div>
+		</div>
+		<div class="main6-right">〉</div>
+	</div>
+	<div class="main7">
+		<div class="main7-left">
+			<div class="main7-left-div1">
+				<div class="main7-left-div1-top">
+					<div class="mian7-top1">
+						<ul>
+							<li style="width:16px;height:16px;margin:8px 5px 8px 10px;"></li>
+							<li style="font-weight: bold;font-size: 14px;"><a href="">最新好玩小游戏列表</a></li>
+						</ul>
+					</div>
+					<div class="main7-top2">
+						<ul>
+							<li><a href="">今日已更新小游戏99款</a></li>
+							<li><a href="">最近推荐游戏</a></li>
+							<li><a href="">更多</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="main7-left-div1-footer">
+					<ul>
+						<li><img src="./image2/45.jpg"><p><a href="">拆弹专家</a></p></li>
+						<li><img src="./image2/46.jpg"><p><a href="">蛇蛇空间大作战</a></p></li>
+						<li><img src="./image2/47.jpg"><p><a href="">超级坦克联盟</a></p></li>
+						<li><img src="./image2/48.jpg"><p><a href="">敢死队3中文版</a></p></li>
+						<li><img src="./image2/49.jpg"><p><a href="">4399火线精英</a></p></li>
+						<li><img src="./image2/50.jpg"><p><a href="">爆枪英雄</a></p></li>
+						<li><img src="./image2/51.jpg"><p><a href="">造梦西游5</a></p></li>
+						<li><img src="./image2/52.jpg"><p><a href="">狼人杀之谁是下</a></p></li>
+						<li><img src="./image2/53.jpg"><p><a href="">爱吃叶子的毛毛</a></p></li>
+						<li><img src="./image2/54.jpg"><p><a href="">密室逃脱5之惊魂</a></p></li>
+						<li><img src="./image2/55.jpg"><p><a href="">城邦争霸正式中</a></p></li>
+						<li><img src="./image2/56.jpg"><p><a href="">死神vs火影3.0</a></p></li>
+						<li><img src="./image2/57.jpg"><p><a href="">西游大战僵尸2</a></p></li>
+						<li><img src="./image2/58.jpg"><p><a href="">4399坦克堂</a></p></li>
+						<li><img src="./image2/59.jpg"><p><a href="">绝世狗腿</a></p></li>
+						<li><img src="./image2/60.jpg"><p><a href="">胖妞逆袭记</a></p></li>
+						<li><img src="./image2/61.jpg"><p><a href="">幻想纹章3</a></p></li>
+						<li><img src="./image2/62.jpg"><p><a href="">猎人的生存日记</a></p></li>
+						<li><img src="./image2/63.jpg"><p><a href="">玩个球</a></p></li>
+						<li><img src="./image2/64.jpg"><p><a href="">造梦西游4</a></p></li>
+						<li><img src="./image2/65.jpg"><p><a href="">4399火影忍者</a></p></li>
+						<li><img src="./image2/66.jpg"><p><a href="">世界杯卡通足球</a></p></li>
+						<li><img src="./image2/67.jpg"><p><a href="">急速变色龙</a></p></li>
+						<li><img src="./image2/68.jpg"><p><a href="">武将风云3</a></p></li>
+						<li><img src="./image2/69.jpg"><p><a href="">超数码宝贝4.0</a></p></li>
+						<li><img src="./image2/70.jpg"><p><a href="">西游灭妖传</a></p></li>
+						<li><img src="./image2/71.jpg"><p><a href="">4399梦幻恋舞</a></p></li>
+						<li><img src="./image2/72.jpg"><p><a href="">4399涂鸦画板</a></p></li>
+						<li><img src="./image2/73.jpg"><p><a href="">皇帝成长计划2</a></p></li>
+						<li><img src="./image2/74.jpg"><p><a href="">小初音大冒险</a></p></li>
+						<li><img src="./image2/75.jpg"><p><a href="">冰火人魔法森林</a></p></li>
+						<li><img src="./image2/76.jpg"><p><a href="">降妖传</a></p></li>
+						<li><img src="./image2/77.jpg"><p><a href="">老爹寿司店中文</a></p></li>
+						<li><img src="./image2/78.jpg"><p><a href="">勇士的信仰</a></p></li>
+						<li><img src="./image2/79.jpg"><p><a href="">火柴人打羽毛球</a></p></li>
+						<li><img src="./image2/80.jpg"><p><a href="">逆袭之剩女重生</a></p></li>
+						<li><img src="./image2/81.jpg"><p><a href="">快打僵尸</a></p></li>
+						<li><img src="./image2/82.jpg"><p><a href="">按点连线</a></p></li>
+						<li><img src="./image2/83.jpg"><p><a href="">喜羊羊要上200层</a></a></p></li>
+						<li><img src="./image2/84.jpg"><p><a href="">史上最贱小游戏</a></p></li>
+						<li><img src="./image2/85.jpg"><p><a href="">星途少女</a></p></li>
+						<li><img src="./image2/86.jpg"><p><a href="">Q版泡泡堂7</a></p></li>
+						<li><img src="./image2/87.jpg"><p><a href="">顶尖特种部队</p></a></li>
+						<li><img src="./image2/88.jpg"><p><a href="">妃笑长安城</a></p></li>
+						<li><img src="./image2/89.jpg"><p><a href="">奔跑吧兄弟</a></p></li>
+						<li><img src="./image2/90.jpg"><p><a href="">新奥特曼大决战</a></p></li>
+						<li><img src="./image2/91.jpg"><p><a href="">史前巨鲨</a></p></li>
+						<li><img src="./image2/92.jpg"><p><a href="">4399使命战争</a></p></li>
+						<li><img src="./image2/93.jpg"><p><a href="">小鳄鱼爱洗澡</a></p></li>
+						<li><img src="./image2/94.jpg"><p><a href="">妖怪宝可萌</a></p></li>
+						<li><img src="./image2/95.jpg"><p><a href="">火柴人vs贱鬼脸</a></p></li>
+						<li><img src="./image2/96.jpg"><p><a href="">火柴人打羽毛球3</a></p></li>
+						<li><img src="./image2/97.jpg"><p><a href="">数码宝贝8</a></p></li>
+						<li><img src="./image2/98.jpg"><p><a href="">老旧的停车场3</a></p></li>
+						<li><img src="./image2/99.jpg"><p><a href="">国王的勇士5</a></p></li>
+						<li><img src="./image2/100.jpg"><p><a href="">拳皇85</a></p></li>
+						<li><img src="./image2/101.jpg"><p><a href="">光头枪手中文版</a></p></li>
+						<li><img src="./image2/102.jpg"><p><a href="">觉醒的霸王龙6</a></p></li>
+						<li><img src="./image2/103.jpg"><p><a href="">光剑战士中文版</a></p></li>
+						<li><img src="./image2/104.jpg"><p><a href="">灾难来临时7</a></p></li>
+						<li><img src="./image2/105.jpg"><p><a href="">西游战记3</a></p></li>
+						<li><img src="./image2/106.jpg"><p><a href="">亚当找夏娃3</a></p></li>
+						<li><img src="./image2/107.jpg"><p><a href="">战火英雄2</a></p></li>
+						<li><img src="./image2/108.jpg"><p><a href="">火影忍者冒险传</a></p></li>
+						<li><img src="./image2/109.jpg"><p><a href="">远古行星中文版</a></p></li>
+						<li><img src="./image2/110.jpg"><p><a href="">新黄金矿工</a></p></li>
+						<li><img src="./image2/111.jpg"><p><a href="">装载卡车5</a></p></li>
+						<li><img src="./image2/112.jpg"><p><a href="">小汽车的太空梦</a></p></li>
+						<li><img src="./image2/113.jpg"><p><a href="">热血NBA万圣节篇</a></p></li>
+						<li><img src="./image2/114.jpg"><p><a href="">极限越野6</a></p></li>
+						<li><img src="./image2/115.jpg"><p><a href="">史小坑的爆笑生活</a></p></li>
+						<li><img src="./image2/116.jpg"><p><a href="">变异汪星人3</a></p></li>
+						<li><img src="./image2/117.jpg"><p><a href="">隔壁老王偷香记</a></p></li>
+						<li><img src="./image2/118.jpg"><p><a href="">捣蛋猪8.0</a></p></li>
+						<li><img src="./image2/119.jpg"><p><a href="">铠甲勇士激斗传</a></p></li>
+						<li><img src="./image2/120.jpg"><p><a href="">狂野飙客3</a></p></li>
+						<li><img src="./image2/121.jpg"><p><a href="">快刀切水果3</a></p></li>
+						<li><img src="./image2/122.jpg"><p><a href="">特种兵大作战</a></p></li>
+						<li><img src="./image2/123.jpg"><p><a href="">消灭星星豪华版</a></p></li>
+						<li><img src="./image2/124.jpg"><p><a href="">旋转忍者</a></p></li>
+						<li><img src="./image2/125.jpg"><p><a href="">炫酷旋转忍者</a></p></li>
+						<li><img src="./image2/126.jpg"><p><a href="">老爹烘培店</a></p></li>
+						<li><img src="./image2/127.jpg"><p><a href="">捕鱼达人</a></p></li>
+						<li><img src="./image2/128.jpg"><p><a href="">高楼爆破3无敌版</a></p></li>
+						<li><img src="./image2/129.jpg"><p><a href="">妖尾vs海贼王</a></p></li>
+						<li><img src="./image2/130.jpg"><p><a href="">3D公共巴士停靠2</a></p></li>
+						<li><img src="./image2/131.jpg"><p><a href="">双人坦克世界3D</a></p></li>
+						<li><img src="./image2/132.jpg"><p><a href="">勇士之路</a></p></li>
+						<li><img src="./image2/133.jpg"><p><a href="">4399Touch热舞</a></p></li>
+						<li><img src="./image2/134.jpg"><p><a href="">森林冰火人</a></p></li>
+						<li><img src="./image2/135.jpg"><p><a href="">奥特曼打怪兽2</a></p></li>
+						<li><img src="./image2/136.jpg"><p><a href="">坦克动荡加强版</a></p></li>
+						<li><img src="./image2/137.jpg"><p><a href="">大脚车越野竞速</a></p></li>
+						<li><img src="./image2/138.jpg"><p><a href="">蒙面铠甲大闯关</a></p></li>
+						<li><img src="./image2/139.jpg"><p><a href="">机器人攻城战</a></p></li>
+						<li><img src="./image2/140.jpg"><p><a href="">帮鸡儿解冻3</a></p></li>
+						<li><img src="./image2/141.jpg"><p><a href="">疯狂小人战斗</a></p></li>
+						<li><img src="./image2/142.jpg"><p><a href="">制作唯美蛋糕</a></p></li>
+						<li><img src="./image2/143.jpg"><p><a href="">变形金刚战记</a></p></li>
+						<li><img src="./image2/144.jpg"><p><a href="">大便超人</a></p></li>
+						<li><img src="./image2/145.jpg"><p><a href="">植物大战僵尸</a></p></li>
+						<li><img src="./image2/146.jpg"><p><a href="">大头儿子小头爸</a></p></li>
+						<li><img src="./image2/147.jpg"><p><a href="">逃命的火鸡</a></p></li>
+						<li><img src="./image2/148.jpg"><p><a href="">粘液实验室</a></p></li>
+						<li><img src="./image2/149.jpg"><p><a href="">超级马里奥</p></li>
+						<li><img src="./image2/150.jpg"><p><a href="">燃烧的蔬菜4</a></p></li>
+						<li><img src="./image2/151.jpg"><p><a href="">黄金矿工双人版</a></p></li>
+						<li><img src="./image2/152.jpg"><p><a href="">开心宝贝卡丁船</a></p></li>
+						<li><img src="./image2/153.jpg"><p><a href="">激光炮轰小怪</a></p></li>
+						<li><img src="./image2/154.jpg"><p><a href="">突击对决</a></p></li>
+						<li><img src="./image2/155.jpg"><p><a href="">狙击小日本</a></p></li>
+						<li><img src="./image2/156.jpg"><p><a href="">极速飞车3</a></p></li>
+						<li><img src="./image2/157.jpg"><p><a href="">水果碰碰车</a></p></li>
+						<li><img src="./image2/158.jpg"><p><a href="">小灰狼吃小羊</a></p></li>
+						<li><img src="./image2/159.jpg"><p><a href="">二战前线3</a></p></li>
+						<li><img src="./image2/160.jpg"><p><a href="">炮打笑脸集合版</a></p></li>
+						<li><img src="./image2/161.jpg"><p><a href="">电击男孩</a></p></li>
+						<li><img src="./image2/162.jpg"><p><a href="">3D极速飙车</a></p></li>
+						<li><img src="./image2/163.jpg"><p><a href="">双人旋转赛车</a></p></li>
+						<li><img src="./image2/164.jpg"><p><a href="">坏小孩回家4</a></p></li>
+						<li><img src="./image2/165.jpg"><p><a href="">拯救恐龙</a></p></li>
+						<li><img src="./image2/166.jpg"><p><a href="">Q版泡泡堂</a></p></li>
+						<li><img src="./image2/167.jpg"><p><a href="">混乱大枪战新版</a></p></li>
+						<li><img src="./image2/168.jpg"><p><a href="">王子公主回家记</a></p></li>
+						<li><img src="./image2/169.jpg"><p><a href="">河马饲养员</a></p></li>
+						<li><img src="./image2/170.jpg"><p><a href="">快乐美发师3</a></p></li>
+						<li><img src="./image2/171.jpg"><p><a href="">火柴人大逃亡</a></p></li>
+						<li><img src="./image2/172.jpg"><p><a href="">愤怒的老奶奶</a></p></li>
+						<li><img src="./image2/173.jpg"><p><a href="">钢铁蜘蛛侠</a></p></li>
+						<li><img src="./image2/174.jpg"><p><a href="">敌对狙击中文版</a></p></li>
+						<li><img src="./image2/175.jpg"><p><a href="">霸气的蠕虫</a></p></li>
+						<li><img src="./image2/176.jpg"><p><a href="">倒霉熊逃离房间</a></p></li>
+						<li><img src="./image2/177.jpg"><p><a href="">乐高游戏嘉年华3</a></p></li>
+						
+
+					</ul>
+				</div>
+			</div>
+			<div class="main7-left-div2">
+				<div class="main7-left-div2-top">
+					<div class="main7-top1" style="width:80px;margin-left: 9px;font-weight:bold;"><a href="">4399精选游戏</a></div>
+					<div class="main7-top2"><a href="" style="margin-right: 13px;">更多</a></div>
+				</div>
+				<div class="main7-left-div2-footer">
+					<ul>
+						<li><img src="./image2/178.jpg"><p><a href="">枪爆英雄2</a></p></li>
+						<li><img src="./image2/179.jpg"><p><a href="">高塔吃钻石</a></p></li>
+						<li><img src="./image2/180.jpg"><p><a href="">骑士精英中文版</a></p></li>
+						<li><img src="./image2/181.jpg"><p><a href="">奥古之光</a></p></li>
+						<li><img src="./image2/182.jpg"><p><a href="">火之创造</a></p></li>
+						<li><img src="./image2/183.jpg"><p><a href="">武将风云录</a></p></li>
+						<li><img src="./image2/184.jpg"><p><a href="">4399涂鸦画板</a></p></li>
+						<li><img src="./image2/185.jpg"><p><a href="">超合金战记3</a></p></li>
+						<li><img src="./image2/186.jpg"><p><a href="">德克萨斯扑克</a></p></li>
+						<li><img src="./image2/187.jpg"><p><a href="">醉游三国</a></p></li>
+						<li><img src="./image2/188.jpg"><p><a href="">沙漠飞车</a></p></li>
+						<li><img src="./image2/189.jpg"><p><a href="">彩虹兔2</a></p></li>
+						<li><img src="./image2/190.jpg"><p><a href="">战斗吧主公</a></p></li>
+						<li><img src="./image2/191.jpg"><p><a href="">4399欢乐斗地主</a></p></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main7-left-div3">
+				<div class="main7-left-div3-top">
+					<div class="main7-top1" style="width:80px;margin-left: 9px;font-weight:bold;"><a href="">H5游戏精选</a></div>
+					<div class="main7-top2"><a href="" style="margin-right: 13px;">更多</a></div>
+				</div>
+				<div class="main7-left-div3-footer">
+					<ul>
+						<li><img src="./image2/192.jpg"><p><a href="">快乐点点消</a></p></li>
+						<li><img src="./image2/193.jpg"><p><a href="">守卫主公</a></p></li>
+						<li><img src="./image2/194.jpg"><p><a href="">梦道</a></p></li>
+						<li><img src="./image2/195.jpg"><p><a href="">极品三国</a></p></li>
+						<li><img src="./image2/196.jpg"><p><a href="">宝贝星球</a></p></li>
+						<li><img src="./image2/197.jpg"><p><a href="">大富豪3</a></p></li>
+						<li><img src="./image2/198.jpg"><p><a href="">我是大将军</a></p></li>
+						<li><img src="./image2/199.jpg"><p><a href="">三生三世</a></p></li>
+						<li><img src="./image2/200.jpg"><p><a href="">啪啪军团</a></p></li>
+						<li><img src="./image2/201.jpg"><p><a href="">放开那三国</a></p></li>
+						<li><img src="./image2/202.jpg"><p><a href="">大圣外传</a></p></li>
+						<li><img src="./image2/203.jpg"><p><a href="">神奇大乱斗</a></p></li>
+						<li><img src="./image2/204.jpg"><p><a href="">妖怪休走</a></p></li>
+						<li><img src="./image2/205.jpg"><p><a href="">口袋妖怪联盟</a></p></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main7-left-div4">
+				<div class="main7-left-div4-top">
+					<div class="main7-top1" style="width:80px;margin-left: 9px;font-weight:bold;color: #484848;"><a href="">4399本期活动</a></div>
+					<div class="main7-top2"><a href="" style="margin-right: 13px;">更多</a></div>
+				</div>
+				<div class="main7-left-div4-footer">
+					<ul>
+						<li><img src="./image2/206.jpg"><p><a href="">怀念你所熟知的4399</a></p></li>
+						<li><img src="./image2/207.jpg"><p><a href="">空烈恋,生死与共</a></p></li>
+						<li><img src="./image2/208.jpg"><p><a href="">造梦5公测,豪华礼包免费</a></p></li>
+						<li><img src="./image2/209.jpg"><p><a href="">4399壹周精选第275期</a></p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="main7-right">
+			<div class="divf">
+				<div class="divf-top">
+					<div><a href="" style="font-weight:bold;margin-left: 10px;">今日推荐</a></div>
+					<div style="float:right;margin-right: 15px;"><a href="">更多</a></div>
+				</div>
+				<div class="divf-footer">
+					<div>
+						<div><a href=""><img src="./image2/210.jpg"></a></div>
+						<div><a href=""><p class="p1">玩爆笑一刻赢皮肤<p><p class="p2">免费赠送王者荣耀永久皮肤,爆笑哥喊你领好礼啦</p></a></div>
+					</div>
+					<div>
+						<div><a href=""><img src="./image2/211.jpg"></a></div>
+						<div><a href=""><p class="p1">4399阴阳师召唤季</p><p class="p2">绘画,同人文征稿,召唤高产的你</p></a></div>
+					</div>
+					<div>
+						<div><a href=""><img src="./image2/212.jpg"></a></div>
+						<div><a href=""><p class="p1">4399楚乔传</p><p class="p2">同名影视剧正版授权,见证楚乔逆天改命</p></a></div>
+					</div>
+					<div>
+						<div><a href=""><img src="./image2/213.jpg"></a></div>
+						<div><a href=""><p class="p1">4399弹弹堂3</p><p class="p2">寻找最强音,萌弹唱响暑假</p></a></div>
+					</div>
+					<div>
+						<div><a href=""><img src="./image2/214.jpg"></a></div>
+						<div><a href=""><p class="p1">小小精灵</p><p class="p2">带上精灵来场说走就走的冒险</p></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="divg">
+				<div class="divg-top">
+					<div><a href="" style="font-weight:bold;margin-left: 10px;">今日推荐</a></div>
+					<div style="float:right;margin-right: 15px;"><a href="">更多</a></div>
+				</div>
+				<div class="divg-footer">
+					<div>
+						<ul>
+							<li><a href=""><img src="./image2/215.jpg"><p>双人小游戏</p></a></li>
+							<li><a href=""><img src="./image2/216.jpg"><p>动画片大全</p></a></li>
+							<li><a href=""><img src="./image2/217.jpg"><p>无敌版</p></a></li>
+							<li><a href=""><img src="./image2/218.jpg"><p>熊出没</p></a></li>
+							<li><a href=""><img src="./image2/219.jpg"><p>连连看全集</p></a></li>
+							<li><a href=""><img src="./image2/220.jpg"><p>坦克</p></a></li>
+							<li><a href=""><img src="./image2/221.jpg"><p>网页游戏大全</p></a></li>
+							<li><a href=""><img src="./image2/222.jpg"><p>3D游戏</p></a></li>
+							<li><a href=""><img src="./image2/223.jpg"><p>宝贝</p></a></li>
+							<li><a href=""><img src="./image2/224.jpg"><p>僵尸</p></a></li>
+							<li><a href=""><img src="./image2/225.jpg"><p>海绵宝宝</p></a></li>
+							<li><a href=""><img src="./image2/226.jpg"><p>公主</p></a></li>
+							<li><a href=""><img src="./image2/227.jpg"><p>大鱼吃小鱼</p></a></li>
+							<li><a href=""><img src="./image2/228.jpg"><p>铠甲勇士</p></a></li>
+							<li><a href=""><img src="./image2/229.jpg"><p>组装专题</p></a></li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="divh">
+				<div class="divh-top">
+					<div><a href="" style="font-weight:bold;margin-left: 10px;">热门动画片</a></div>
+					<div style="float:right;margin-right: 15px;"><a href="">更多</a></div>
+				</div>
+				<div class="divh-footer">
+					<div class="footer1"><img src="./image2/230.jpg"></div>
+					<div class="footer2">
+						<ul>
+							<li><a href=""><img src="./image2/231.jpg"><p>新西游记</p></a></li>
+							<li><a href=""><img src="./image2/232.jpg"><p>兔八哥</p></a></li>
+							<li><a href=""><img src="./image2/233.jpg"><p>赛尔号第八季</p></a></li>
+							<li><a href=""><img src="./image2/234.jpg"><p>火线传奇第三季</p></a></li>
+							<li><a href=""><img src="./image2/235.jpg"><p>精灵梦叶罗丽</p></a></li>
+							<li><a href=""><img src="./image2/236.jpg"><p>乐高幻影忍者</p></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="divj">
+				<div class="divh-top">
+					<div><a href="" style="font-weight:bold;margin-left: 10px;">热门动画片</a></div>
+				</div>
+				<div class="divj-footer">
+					<img src="./image2/237.jpg">
+					<div>
+						<div><img src="./image2/238.jpg"></div>
+						<div class="pppp">
+							<p><a href="" style="font-size: 14px;color: #484848;">一江明月一江秋</a></p>
+							<p class="pl"><a href="" style="color:#929292 ">剑网3同人</a></p>
+						</div>
+					</div>
+					<div>
+						<div><img src="./image2/239.jpg"></div>
+						<div class="pppp">
+							<p><a href="" style="font-size: 14px;color: #484848;">我的世界如果有了激光剑</a></p>
+							<p class="pl"><a href="" style="color:#929292 ">坑爹恶搞</a></p>
+						</div>
+					</div>
+					<div>
+						<div><img src="./image2/240.jpg"></div>
+						<div class="pppp">
+							<p><a href="" style="font-size: 14px;color: #484848;">我能医得天下病,却医不了自己的心</a></p>
+							<p class="pl"><a href="" style="color:#929292 ">原创小说</a></p>
+						</div>
+					</div>
+					<div>
+						<div><img src="./image2/241.jpg"></div>
+						<div class="pppp">
+							<p><a href="" style="font-size: 14px;color: #484848;">《熊出没》违背了那么多常识,你造么</a></p>
+							<p class="pl"><a href="" style="color:#929292 ">燃烧吧中二魂</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="divk">
+				<div class="divh-top">
+					<div><a href="" style="font-weight:bold;margin-left: 10px;">手机游戏</a></div>
+					<div style="float:right;margin-right: 15px;"><a href="">更多</a></div>
+				</div>
+				<div class="divk-footer">
+					<ul>
+						<li><a href=""><img src="./image2/242.jpg"><p>小小突击队</p></a></li>
+						<li><a href=""><img src="./image2/243.jpg"><p>火柴人联盟</p></a></li>
+						<li><a href=""><img src="./image2/244.jpg"><p>巨神战击队3</p></a></li>
+						<li><a href=""><img src="./image2/245.jpg"><p>神兽金刚3</p></a></li>
+						<li><a href=""><img src="./image2/246.jpg"><p>熊出没</p></a></li>
+						<li><a href=""><img src="./image2/247.jpg"><p>生死狙击</p></a></li>
+					</ul>
+				</div>
+			</div>	
+			<div class="divu">
+				<div class="divh-top">
+					<div><a href="" style="font-weight:bold;margin-left: 10px;">网页游戏</a></div>
+					<div style="float:right;margin-right: 15px;"><a href="">更多</a></div>
+				</div>
+				<div class="divu-footer">
+					<ul>
+						<li><a href=""><img src="./image2/248.jpg"><p>4399完美漂移</p></a></li>
+						<li><a href=""><img src="./image2/249.jpg"><p>4399战争使命</p></a></li>
+						<li><a href=""><img src="./image2/250.jpg"><p>4399村长征战团</p></a></li>
+						<li><a href=""><img src="./image2/251.jpg"><p>4399盗墓笔记</p></a></li>
+						<li><a href=""><img src="./image2/252.jpg"><p>4399梦幻恋舞</p></a></li>
+						<li><a href=""><img src="./image2/253.jpg"><p>4399魔龙之戒</p></a></li>
+						<li><a href=""><img src="./image2/254.jpg"><p>4399小小精灵</p></a></li>
+						<li><a href=""><img src="./image2/255.jpg"><p>4399楚乔传</p></a></li>
+					</ul>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<div class="main8">
+		<div class="main8-top">
+			<div class="main8-top-left"><a href="">最新推荐游戏
+			</a></div>
+			<div class="main8-top-right"><a href="">更多</a>
+			</div>
+		</div>
+		<div class="main8-footer">
+			<ul>
+				<li><a href=""><img src="./image2/256.jpg"><p>青蛙乐园</p></a></li>
+				<li><a href=""><img src="./image2/257.jpg"><p>都小猴子开心</p></a></li>
+				<li><a href=""><img src="./image2/258.jpg"><p>城堡建造者</p></a></li>
+				<li><a href=""><img src="./image2/259.jpg"><p>六边形入坑</p></a></li>
+				<li><a href=""><img src="./image2/260.jpg"><p>弗莱迪的实验</p></a></li>
+				<li><a href=""><img src="./image2/261.jpg"><p>球球大转盘</p></a></li>
+				<li><a href=""><img src="./image2/262.jpg"><p>小英雄打僵尸3D</p></a></li>
+				<li><a href=""><img src="./image2/263.jpg"><p>爱情大冒险中文版</p></a></li>
+				<li><a href=""><img src="./image2/264.jpg"><p>魔法可可顶球比赛</p></a></li>
+				<li><a href=""><img src="./image2/265.jpg"><p>夏日泡泡</p></a></li>
+				<li><a href=""><img src="./image2/266.jpg"><p>天天赛车3D</p></a></li>
+				<li><a href=""><img src="./image2/267.jpg"><p>神明的反击中文版</p></a></li>
+				<li><a href=""><img src="./image2/268.jpg"><p>小头爸爸当矿工2</p></a></li>
+				<li><a href=""><img src="./image2/269.jpg"><p>枪支制造商</p></a></li>
+				<li><a href=""><img src="./image2/270.jpg"><p>酒吧百变调酒师2</p></a></li>
+				<li><a href=""><img src="./image2/271.jpg"><p>铁板三明治</p></a></li>
+				<li><a href=""><img src="./image2/272.jpg"><p>乒乓球挑战大赛</p></a></li>
+				<li><a href=""><img src="./image2/273.jpg"><p>填满黄色</p></a></li>
+				<li><a href=""><img src="./image2/274.jpg"><p>熊出没之飞车争夺</p></a></li>
+				<li><a href=""><img src="./image2/275.jpg"><p>机器武士对抗战</p></a></li>
+				<li><a href=""><img src="./image2/276.jpg"><p>奥特曼救女友</p></a></li>
+				<li><a href=""><img src="./image2/277.jpg"><p>奥特曼宇宙大战争</p></a></li>
+				<li><a href=""><img src="./image2/278.jpg"><p>捣蛋猪总动员</p></a></li>
+				<li><a href=""><img src="./image2/279.jpg"><p>饥饿的小蛇</p></a></li>
+				<li><a href=""><img src="./image2/280.jpg"><p>冰火人面兽2</p></a></li>
+				<li><a href=""><img src="./image2/281.jpg"><p>大便超人找龙珠2</p></a></li>
+				<li><a href=""><img src="./image2/282.jpg"><p>超级假超人2</p></a></li>
+				<li><a href=""><img src="./image2/283.jpg"><p>家里的故事中文版</p></a></li>
+				<li><a href=""><img src="./image2/284.jpg"><p>滚动的钢珠2</p></a></li>
+				<li><a href=""><img src="./image2/285.jpg"><p>城市停车</p></a></li>
+				<li><a href=""><img src="./image2/286.jpg"><p>组装机械变形警车</p></a></li>
+				<li><a href=""><img src="./image2/287.jpg"><p>组装恐龙标本2</p></a></li>
+				<li><a href=""><img src="./image2/288.jpg"><p>不要停!八分音符</p></a></li>
+				<li><a href=""><img src="./image2/289.jpg"><p>奥特曼救人质</p></a></li>
+				<li><a href=""><img src="./image2/290.jpg"><p>动物竞技场4</p></a></li>
+				<li><a href=""><img src="./image2/291.jpg"><p>受伤的宇航员</p></a></li>
+				<li><a href=""><img src="./image2/292.jpg"><p>开门吧,少年</p></a></li>
+				<li><a href=""><img src="./image2/293.jpg"><p>大便超人找老婆2</p></a></li>
+				<li><a href=""><img src="./image2/294.jpg"><p>光头强与蜜蜂窝5</p></a></li>
+				<li><a href=""><img src="./image2/295.jpg"><p>机器霸王龙对抗战</p></a></li>
+				<li><a href=""><img src="./image2/296.jpg"><p>鲨鱼大作战</p></a></li>
+				<li><a href=""><img src="./image2/297.jpg"><p>能力收割者</p></a></li>
+				<li><a href=""><img src="./image2/298.jpg"><p>奔跑吧兄弟5</p></a></li>
+				<li><a href=""><img src="./image2/299.jpg"><p>冰火人亚马逊大冒险</p></a></li>
+				<li><a href=""><img src="./image2/300.jpg"><p>火柴人吃豆豆2</p></a></li>
+				<li><a href=""><img src="./image2/301.jpg"><p>抗日英雄传</p></a></li>
+				<li><a href=""><img src="./image2/302.jpg"><p>我的幻想乐园</p></a></li>
+				<li><a href=""><img src="./image2/303.jpg"><p>大快吃小怪</p></a></li>
+				<li><a href=""><img src="./image2/304.jpg"><p>欧洲杯大战</p></a></li>
+				<li><a href=""><img src="./image2/305.jpg"><p>守住冰块</p></a></li>
+				<li><a href=""><img src="./image2/306.jpg"><p>恐龙妈妈找恐龙蛋</p></a></li>
+				<li><a href=""><img src="./image2/307.jpg"><p>蛇蛇大作战炫酷版</p></a></li>
+				<li><a href=""><img src="./image2/308.jpg"><p>机器人酷跑3</p></a></li>
+				<li><a href=""><img src="./image2/309.jpg"><p>大便超人灭僵尸</p></a></li>
+				<li><a href=""><img src="./image2/310.jpg"><p>盟军战争英雄</p></a></li>
+				<li><a href=""><img src="./image2/311.jpg"><p>坦克动荡2</p></a></li>
+				<li><a href=""><img src="./image2/312.jpg"><p>投篮小能手</p></a></li>
+				<li><a href=""><img src="./image2/313.jpg"><p>大卡车吃小汽车5</p></a></li>
+				<li><a href=""><img src="./image2/314.jpg"><p>会说话的金杰2</p></a></li>
+				<li><a href=""><img src="./image2/315.jpg"><p>游戏明星大乱斗</p></a></li>
+				<li><a href=""><img src="./image2/316.jpg"><p>火柴人开大吊车3</p></a></li>
+				<li><a href=""><img src="./image2/317.jpg"><p>阴森的地牢</p></a></li>
+				<li><a href=""><img src="./image2/318.jpg"><p>格斗战机</p></a></li>
+				<li><a href=""><img src="./image2/319.jpg"><p>购物海滩</p></a></li>
+				<li><a href=""><img src="./image2/320.jpg"><p>一把火</p></a></li>
+				<li><a href=""><img src="./image2/321.jpg"><p>神庙逃亡2</p></a></li>
+				<li><a href=""><img src="./image2/322.jpg"><p>4399桌球高手积分</p></a></li>
+				<li><a href=""><img src="./image2/323.jpg"><p>我的海豚表演3</p></a></li>
+				<li><a href=""><img src="./image2/324.jpg"><p>养只宠物球</p></a></li>
+				<li><a href=""><img src="./image2/325.jpg"><p>3D超级漂移4</p></a></li>
+				<li><a href=""><img src="./image2/326.jpg"><p>熊出没卡丁车</p></a></li>
+				<li><a href=""><img src="./image2/327.jpg"><p>杀手刺杀国王2</p></a></li>
+				<li><a href=""><img src="./image2/328.jpg"><p>爆发的小火山</p></a></li>
+				<li><a href=""><img src="./image2/329.jpg"><p>奥特曼大战</p></a></li>
+				<li><a href=""><img src="./image2/330.jpg"><p>孤城神剑</p></a></li>
+				<li><a href=""><img src="./image2/331.jpg"><p>大鱼吃小鱼2012</p></a></li>
+				<li><a href=""><img src="./image2/332.jpg"><p>史前鲨鱼</p></a></li>
+				<li><a href=""><img src="./image2/333.jpg"><p>炮兵突击</p></a></li>
+				<li><a href=""><img src="./image2/334.jpg"><p>不凡的游戏</p></a></li>
+				<li><a href=""><img src="./image2/335.jpg"><p>我的世界僵尸版</p></a></li>
+				<li><a href=""><img src="./image2/336.jpg"><p>海绵宝宝脑部手术</p></a></li>
+				<li><a href=""><img src="./image2/337.jpg"><p>大炮篮球</p></a></li>
+				<li><a href=""><img src="./image2/338.jpg"><p>军旗</p></a></li>
+				<li><a href=""><img src="./image2/339.jpg"><p>手纸没有了</p></a></li>
+				<li><a href=""><img src="./image2/340.jpg"><p>植物大战僵尸无敌</p></a></li>
+				<li><a href=""><img src="./image2/341.jpg"><p>黑太狼吃羊2</p></a></li>
+				<li><a href=""><img src="./image2/342.jpg"><p>托马斯过河</p></a></li>
+				<li><a href=""><img src="./image2/343.jpg"><p>愤怒的小鸟太空版</p></a></li>
+				<li><a href=""><img src="./image2/344.jpg"><p>狼牙特种部队2</p></a></li>
+				<li><a href=""><img src="./image2/345.jpg"><p>代客泊车3D</p></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main9">
+		<div class="main9-top">
+			<div class="main9-top-left"><a href="">女生游戏专区</a></div>
+			<div class="main9-top-right"><a href="">更多</a></div>
+		</div>
+		<div class="main9-footer">
+			<div class="left">
+				<div class="div0">
+					<ul>
+						<li><a href=""><img src="./image2/346.jpg"><p>4399涂鸦画板</p></a></li>
+						<li><a href=""><img src="./image2/347.jpg"><p>宝贝做作业</p></a></li>
+						<li><a href=""><img src="./image2/348.jpg"><p>奥莉的水果布丁</p></a></li>
+						<li><a href=""><img src="./image2/349.jpg"><p>爱吃西瓜的女孩</p></a></li>
+						<li><a href=""><img src="./image2/350.jpg"><p>奇幻世界漫画风</p></a></li>
+						<li><a href=""><img src="./image2/351.jpg"><p>瑞尔的蜜月装</p></a></li>
+						<li><a href=""><img src="./image2/352.jpg"><p>时尚短款婚纱</p></a></li>
+						<li><a href=""><img src="./image2/353.jpg"><p>泳池派对狂欢</p></a></li>
+						<li><a href=""><img src="./image2/354.jpg"><p>古代萌风2</p></a></li>
+						<li><a href=""><img src="./image2/355.jpg"><p>苏菲亚和安伯</p></a></li>
+						<li><a href=""><img src="./image2/356.jpg"><p>汉堡烹饪店</p></a></li>
+						<li><a href=""><img src="./image2/357.jpg"><p>女孩的冰淇淋车</p></a></li>
+						<li><a href=""><img src="./image2/358.jpg"><p>巴啦啦小魔仙</p></a></li>
+						<li><a href=""><img src="./image2/359.jpg"><p>奥雅之光</p></a></li>
+						<li><a href=""><img src="./image2/360.jpg"><p>高中女生房子</p></a></li>
+						<li><a href=""><img src="./image2/361.jpg"><p>朵拉小女仆</p></a></li>
+						<li><a href=""><img src="./image2/362.jpg"><p>车祸急救</p></a></li>
+						<li><a href=""><img src="./image2/363.jpg"><p>制作彩虹冰淇淋</p></a></li>
+						<li><a href=""><img src="./image2/364.jpg"><p>灰姑娘的壁橱</p></a></li>
+						<li><a href=""><img src="./image2/365.jpg"><p>宠物牙医</p></a></li>
+						<li><a href=""><img src="./image2/366.jpg"><p>小花仙</p></a></li>
+						<li><a href=""><img src="./image2/367.jpg"><p>我们的少年时代</p></a></li>
+						<li><a href=""><img src="./image2/368.jpg"><p>汉堡热狗经营</p></a></li>
+						<li><a href=""><img src="./image2/369.jpg"><p>布置闺蜜婚房</p></a></li>
+						<li><a href=""><img src="./image2/370.jpg"><p>安娜当伴娘</p></a></li>
+						<li><a href=""><img src="./image2/371.jpg"><p>五颜六色的蛋糕</p></a></li>
+						<li><a href=""><img src="./image2/372.jpg"><p>冰雪姐妹美甲</p></a></li>
+						<li><a href=""><img src="./image2/373.jpg"><p>小猪佩奇一家</p></a></li>
+					</ul>
+				</div>
+				<div class="div00">文宇游戏推荐</div>
+				<div class="div000">
+					<ul>
+						<li><a href=""><img src="./image2/374.jpg"><p>江山局天水成碧</p></a></li>
+						<li><a href=""><img src="./image2/375.jpg"><p>风起涟漪</p></a></li>
+						<li><a href=""><img src="./image2/376.jpg"><p>仙劫之三世两相牵</p></a></li>
+						<li><a href=""><img src="./image2/377.jpg"><p>G弦上的爱丽丝</p></a></li>
+						<li><a href=""><img src="./image2/378.jpg"><p>绝世狗腿</p></a></li>
+						<li><a href=""><img src="./image2/379.jpg"><p>胭脂长寒</p></a></li>
+						<li><a href=""><img src="./image2/380.jpg"><p>您的噩梦已上线</p></a></li>
+						<li><a href=""><img src="./image2/381.jpg"><p>鬼夫</p></a></li>
+						<li><a href=""><img src="./image2/382.jpg"><p>往往不识初慕君2</p></a></li>
+						<li><a href=""><img src="./image2/383.jpg"><p>后宫宛真传</p></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="right">
+				<div class="div8">
+					<ul>
+						<li><a href=""><img src="./image2/384.jpg"><p>闪艺专题</p></a></li>
+						<li><a href=""><img src="./image2/385.jpg"><p>公主专题</p></a></li>
+						<li><a href=""><img src="./image2/386.jpg"><p>化妆</p></a></li>
+						<li><a href=""><img src="./image2/387.jpg"><p>婚纱婚礼</p></a></li>
+						<li><a href=""><img src="./image2/388.jpg"><p>古代换装</p></a></li>
+						<li><a href=""><img src="./image2/389.jpg"><p>美发</p></a></li>
+						<li><a href=""><img src="./image2/390.jpg"><p>朵拉</p></a></li>
+						<li><a href=""><img src="./image2/391.jpg"><p>做饭</p></a></li>
+						<li><a href=""><img src="./image2/392.jpg"><p>明星</p></a></li>
+					</ul>
+				</div>
+				<div class="div88"><img src="./image2/393.jpg"></div>
+				<div class="div888 ">
+					<ul>
+						<li><a href=""><img src="./image2/394.jpg"><p>皮卡堂</p></a></li>
+						<li><a href=""><img src="./image2/395.jpg"><p>梦幻恋舞</p></a></li>
+						<li><a href=""><img src="./image2/396.jpg"><p>touch热舞</p></a></li>
+						<li><a href=""><img src="./image2/397.jpg"><p>美食大战老鼠</p></a></li>
+					</ul>
+				</div>
+			</div> 
+		</div>
+	</div>
+	<div class="main10">
+		<div class="main10-top">
+			<div class="main10-top1">
+				<span style="font-size:14px;margin-left:80px;font-weight: bold;"><a href="">经典游戏推荐
+				</a></span>
+				<span style="float: right;margin-right:26px;"><a href="">更多</span>
+				<ul>
+					<li><a href="">勇士</a></li>
+					<li><a href="">红白机</a></li>
+					<li><a href="">马里奥</a></li>
+					<li><a href="">英雄</a></li>
+					<li><a href="">像素</a></li>
+					<li><a href="">机器人</a></li>
+					<li><a href="">对对碰</a></li>
+					<li><a href="">死神</a></li>
+					<li><a href="">火影忍者</a></li>
+					<li><a href="">战争</a></li>
+					<li><a href="">恐怖</a></li>
+					<li><a href="">医生看病</a></li>
+					<li><a href="">发泄</a></li>
+					<li><a href="">整蛊</a></li>
+					<li><a href="">神奇宝贝</a></li>
+					<li><a href="">动漫游戏</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main10-footer">
+			<div class="left">
+				<ul>
+					<li><a href=""><img src="./image2/398.jpg"><p>造梦西游</p></a></li>
+					<li><a href=""><img src="./image2/399.jpg"><p>卡布仙踪</p></a></li>
+					<li><a href=""><img src="./image2/400.jpg"><p>4399三国杀</p></a></li>
+					<li><a href=""><img src="./image2/401.jpg"><p>智能飞行棋</p></a></li>
+					<li><a href=""><img src="./image2/402.jpg"><p>奥特曼激斗传</p></a></li>
+					<li><a href=""><img src="./image2/403.jpg"><p>钻头车挖宝石</p></a></li>
+					<li><a href=""><img src="./image2/404.jpg"><p>彩8对战</p></a></li>
+					<li><a href=""><img src="./image2/405.jpg"><p>露娜开放式厨房</p></a></li>
+					<li><a href=""><img src="./image2/406.jpg"><p>乐高警察抓小偷</p></a></li>
+					<li><a href=""><img src="./image2/407.jpg"><p>点穴神功</p></a></li>
+					<li><a href=""><img src="./image2/408.jpg"><p>骇客大战外星人</p></a></li>
+					<li><a href=""><img src="./image2/409.jpg"><p>老爹甜品店</p></a></li>
+					<li><a href=""><img src="./image2/410.jpg"><p>唤醒嗜睡的人</p></a></li>
+					<li><a href=""><img src="./image2/411.jpg"><p>战火英雄无敌版</p></a></li>
+					<li><a href=""><img src="./image2/412.jpg"><p>海底大猎杀</p></a></li>
+					<li><a href=""><img src="./image2/413.jpg"><p>剿灭黑手党</p></a></li>
+					<li><a href=""><img src="./image2/414.jpg"><p>英雄大作战</p></a></li>
+					<li><a href=""><img src="./image2/415.jpg"><p>小婴儿逃出系列</p></a></li>
+					<li><a href=""><img src="./image2/416.jpg"><p>闪翼双星</p></a></li>
+					<li><a href=""><img src="./image2/417.jpg"><p>会说话的tom猫</p></a></li>
+					<li><a href=""><img src="./image2/418.jpg"><p>变形金刚</p></a></li>
+					<li><a href=""><img src="./image2/419.jpg"><p>保卫萝卜</p></a></li>
+					<li><a href=""><img src="./image2/420.jpg"><p>疯狂过山车</p></a></li>
+					<li><a href=""><img src="./image2/421.jpg"><p>狂野推土机2</p></a></li>
+					<li><a href=""><img src="./image2/422.jpg"><p>极限跑酷</p></a></li>
+					<li><a href=""><img src="./image2/423.jpg"><p>4399打豆豆</p></a></li>
+					<li><a href=""><img src="./image2/424.jpg"><p>菠萝芒果汁</p></a></li>
+					<li><a href=""><img src="./image2/425.jpg"><p>坦克动荡</p></a></li>
+					<li><a href=""><img src="./image2/426.jpg"><p>双刃战士无敌版</p></a></li>
+					<li><a href=""><img src="./image2/427.jpg"><p>猛象争霸</p></a></li>
+					<li><a href=""><img src="./image2/428.jpg"><p>幼儿园小宝宝</p></a></li>
+					<li><a href=""><img src="./image2/429.jpg"><p>战争进化史</p></a></li>
+					<li><a href=""><img src="./image2/430.jpg"><p>枕头大战</p></a></li>
+					<li><a href=""><img src="./image2/431.jpg"><p>屁王兄弟无敌版</p></a></li>
+					<li><a href=""><img src="./image2/432.jpg"><p>悄悄放屁</p></a></li>
+					<li><a href=""><img src="./image2/433.jpg"><p>建筑队大战僵尸</p></a></li>
+					<li><a href=""><img src="./image2/434.jpg"><p>展翅高飞</p></a></li>
+					<li><a href=""><img src="./image2/435.jpg"><p>狗狗养成大作战</p></a></li>
+					<li><a href=""><img src="./image2/436.jpg"><p>无敌小坦克</p></a></li>
+					<li><a href=""><img src="./image2/437.jpg"><p>奶油鸡食谱</p></a></li>
+					<li><a href=""><img src="./image2/438.jpg"><p>送小羊回家2</p></a></li>
+					<li><a href=""><img src="./image2/439.jpg"><p>米拉奇战记</p></a></li>
+				</ul>
+			</div>
+			<div class="right">
+				<div class="div1">
+					<a href="">本周推荐</a>
+				</div>
+				<div class="div2">
+					<a href=""><img src="./image2/440.jpg"><p>《英雄枪战电脑版》</p></a>
+				</div>
+				<div class="div1">
+					<a href="">游戏天地</a>
+				</div>
+				<div class="div3">
+					<ul>
+						<li><a href=""><img src="./image2/441.jpg"><p>王者荣耀同人小说</p></a></li>
+						<li><a href=""><img src="./image2/442.jpg"><p>老爹系列小游戏</p></a></li>
+						<li><a href=""><img src="./image2/443.jpg"><p>4399独家游戏专区</p></a></li>
+						<li><a href=""><img src="./image2/444.jpg"><p>我的世界</p></a></li>
+						<li><a href=""><img src="./image2/445.jpg"><p>lol玩家必玩游戏</p></a></li>
+						<li><a href=""><img src="./image2/446.jpg"><p>乐高专题</p></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main11">
+		<div class="main11-left">
+			<div class="top">
+				<div class="top1"><a href="">射击类月排行</a></div>
+				<div class="top2"><a href="">更多</a></div>
+			</div>
+			<div class="footer">
+				<ul>
+					<li><a href=""><img src="image2/447.jpg"><p>僵尸敢死队</p></a></li>
+					<li><a href=""><img src="image2/448.jpg"><p>太空舱作战军团</p></a></li>
+					<li><a href=""><img src="image2/449.jpg"><p>武装原型</p></a></li>
+					<li><a href=""><img src="image2/450.jpg"><p>冲锋陷阵</p></a></li>
+					<li><a href=""><img src="image2/451.jpg"><p>3D坦克</p></a></li>
+					<li><a href=""><img src="image2/452.jpg"><p>二战前线2</p></a></li>
+					<li><a href=""><img src="image2/453.jpg"><p>僵尸危机3</p></a></li>
+					<li><a href=""><img src="image2/454.jpg"><p>油漆枪战</p></a></li>
+					<li><a href=""><img src="image2/455.jpg"><p>4399火线精英</p></a></li>
+					<li><a href=""><img src="image2/456.jpg"><p>魂斗罗完美版</p></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main11-right">
+			<div class="top">
+				<div class="top1"><a href="">动作类月排行</a></div>
+				<div class="top2"><a href="">更多</a></div>
+			</div>
+			<div class="footer">
+				<ul>
+					<li><a href=""><img src="image2/457.jpg"><p>僵尸敢死队</p></a></li>
+					<li><a href=""><img src="image2/458.jpg"><p>太空舱作战军团</p></a></li>
+					<li><a href=""><img src="image2/459.jpg"><p>武装原型</p></a></li>
+					<li><a href=""><img src="image2/460.jpg"><p>冲锋陷阵</p></a></li>
+					<li><a href=""><img src="image2/461.jpg"><p>3D坦克</p></a></li>
+					<li><a href=""><img src="image2/462.jpg"><p>二战前线2</p></a></li>
+					<li><a href=""><img src="image2/463.jpg"><p>僵尸危机3</p></a></li>
+					<li><a href=""><img src="image2/464.jpg"><p>油漆枪战</p></a></li>
+					<li><a href=""><img src="image2/455.jpg"><p>4399火线精英</p></a></li>
+					<li><a href=""><img src="image2/466.jpg"><p>魂斗罗完美版</p></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="main11">
+		<div class="main11-left">
+			<div class="top">
+				<div class="top1"><a href="">体育＆益智＆休闲类月排行</a></div>
+				<div class="top2"><a href="">更多</a></div>
+			</div>
+			<div class="footer">
+				<ul>
+					<li><a href=""><img src="image2/467.jpg"><p>僵尸敢死队</p></a></li>
+					<li><a href=""><img src="image2/468.jpg"><p>太空舱作战军团</p></a></li>
+					<li><a href=""><img src="image2/469.jpg"><p>武装原型</p></a></li>
+					<li><a href=""><img src="image2/470.jpg"><p>冲锋陷阵</p></a></li>
+					<li><a href=""><img src="image2/471.jpg"><p>3D坦克</p></a></li>
+					<li><a href=""><img src="image2/472.jpg"><p>二战前线2</p></a></li>
+					<li><a href=""><img src="image2/473.jpg"><p>僵尸危机3</p></a></li>
+					<li><a href=""><img src="image2/474.jpg"><p>油漆枪战</p></a></li>
+					<li><a href=""><img src="image2/475.jpg"><p>4399火线精英</p></a></li>
+					<li><a href=""><img src="image2/476.jpg"><p>魂斗罗完美版</p></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main11-right">
+			<div class="top">
+				<div class="top1"><a href="">冒险类月排行</a></div>
+				<div class="top2"><a href="">更多</a></div>
+			</div>
+			<div class="footer">
+				<ul>
+					<li><a href=""><img src="image2/477.jpg"><p>僵尸敢死队</p></a></li>
+					<li><a href=""><img src="image2/478.jpg"><p>太空舱作战军团</p></a></li>
+					<li><a href=""><img src="image2/479.jpg"><p>武装原型</p></a></li>
+					<li><a href=""><img src="image2/480.jpg"><p>冲锋陷阵</p></a></li>
+					<li><a href=""><img src="image2/481.jpg"><p>3D坦克</p></a></li>
+					<li><a href=""><img src="image2/482.jpg"><p>二战前线2</p></a></li>
+					<li><a href=""><img src="image2/483.jpg"><p>僵尸危机3</p></a></li>
+					<li><a href=""><img src="image2/484.jpg"><p>油漆枪战</p></a></li>
+					<li><a href=""><img src="image2/485.jpg"><p>4399火线精英</p></a></li>
+					<li><a href=""><img src="image2/486.jpg"><p>魂斗罗完美版</p></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="main11">
+		<div class="main11-left">
+			<div class="top">
+				<div class="top1"><a href="">棋牌＆敏捷类月排行</a></div>
+				<div class="top2"><a href="">更多</a></div>
+			</div>
+			<div class="footer">
+				<ul>
+					<li><a href=""><img src="image2/487.jpg"><p>僵尸敢死队</p></a></li>
+					<li><a href=""><img src="image2/488.jpg"><p>太空舱作战军团</p></a></li>
+					<li><a href=""><img src="image2/489.jpg"><p>武装原型</p></a></li>
+					<li><a href=""><img src="image2/490.jpg"><p>冲锋陷阵</p></a></li>
+					<li><a href=""><img src="image2/491.jpg"><p>3D坦克</p></a></li>
+					<li><a href=""><img src="image2/492.jpg"><p>二战前线2</p></a></li>
+					<li><a href=""><img src="image2/493.jpg"><p>僵尸危机3</p></a></li>
+					<li><a href=""><img src="image2/494.jpg"><p>油漆枪战</p></a></li>
+					<li><a href=""><img src="image2/495.jpg"><p>4399火线精英</p></a></li>
+					<li><a href=""><img src="image2/496.jpg"><p>魂斗罗完美版</p></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main11-right">
+			<div class="top">
+				<div class="top1"><a href="">儿童类月排行</a></div>
+				<div class="top2"><a href="">更多</a></div>
+			</div>
+			<div class="footer">
+				<ul>
+					<li><a href=""><img src="image2/497.jpg"><p>僵尸敢死队</p></a></li>
+					<li><a href=""><img src="image2/498.jpg"><p>太空舱作战军团</p></a></li>
+					<li><a href=""><img src="image2/499.jpg"><p>武装原型</p></a></li>
+					<li><a href=""><img src="image2/500.jpg"><p>冲锋陷阵</p></a></li>
+					<li><a href=""><img src="image2/501.jpg"><p>3D坦克</p></a></li>
+					<li><a href=""><img src="image2/502.jpg"><p>二战前线2</p></a></li>
+					<li><a href=""><img src="image2/503.jpg"><p>僵尸危机3</p></a></li>
+					<li><a href=""><img src="image2/504.jpg"><p>油漆枪战</p></a></li>
+					<li><a href=""><img src="image2/505.jpg"><p>4399火线精英</p></a></li>
+					<li><a href=""><img src="image2/506.jpg"><p>魂斗罗完美版</p></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="main12">
+		<div class="top">
+			<div class="left"><a href="">网页游戏专区</a></div>
+			<div class="right"><a href="">开服列表|更多</a></div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li><a href=""><img src="./image2/507.jpg"><p>4399完美漂移</p></a></li>
+				<li><a href=""><img src="./image2/508.jpg"><p>梦幻三国</p></a></li>
+				<li><a href=""><img src="./image2/509.jpg"><p>4399楚乔传</p></a></li>
+				<li><a href=""><img src="./image2/510.jpg"><p>4399乾坤战纪</p></a></li>
+				<li><a href=""><img src="./image2/511.jpg"><p>4399乐蜀三国</p></a></li>
+				<li><a href=""><img src="./image2/512.jpg"><p>生死狙击</p></a></li>
+				<li><a href=""><img src="./image2/513.jpg"><p>弹弹堂3</p></a></li>
+				<li><a href=""><img src="./image2/514.jpg"><p>4399创想兵团</p></a></li>
+				<li><a href=""><img src="./image2/515.jpg"><p>4399创世兵魂</p></a></li>
+				<li><a href=""><img src="./image2/516.jpg"><p>4399火线精英</p></a></li>
+				<li><a href=""><img src="./image2/517.jpg"><p>3D坦克</p></a></li>
+				<li><a href=""><img src="./image2/518.jpg"><p>4399全民主公</p></a></li>
+				<li><a href=""><img src="./image2/519.jpg"><p>4399村长征战团</p></a></li>
+				<li><a href=""><img src="./image2/520.jpg"><p>4399盗墓笔记</p></a></li>
+				<li><a href=""><img src="./image2/521.jpg"><p>4399枪战英雄</p></a></li>
+				<li><a href=""><img src="./image2/522.jpg"><p>4399小小精灵</p></a></li>
+				<li><a href=""><img src="./image2/523.jpg"><p>4399Touch热舞</p></a></li>
+				<li><a href=""><img src="./image2/524.jpg"><p>4399三国杀</p></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main13">
+		<ul style="margin-left: 65px;">
+			<li><a href="" style="font-weight: bold;">4399小游戏</a></li>
+			<li><a href="" style="font-weight: bold;">hao123小游戏</a></li>
+			<li><a href="" style="font-weight: bold;">赛尔号</a></li>
+			<li><a href="">漫画网</a></li>
+			<li><a href="">游久网</a></li>
+			<li><a href="">洛克王国宠物大全</a></li>
+			<li><a href="">奥奇传说</a></li>
+			<li><a href="">做饭小游戏</a></li>
+			<li><a href="">奥特曼兄弟</a></li>
+			<li><a href="">笑话大全</a></li>
+			<li><a href="">手机游戏</a></li>
+			<li><a href="">手机铃声</a></li>
+			<li><a href="">手机应用</a></li>
+		</ul>
+		<ul style="margin-left: 50px;">
+			<li><a href="">4399手机游戏网</a></li>
+			<li><a href="">拳皇97</a></li>
+			<li><a href="">4399玩具王</a></li>
+			<li><a href="">H5游戏</a></li>
+			<li><a href="">枪战英雄</a></li>
+			<li><a href="">造梦西游5</a></li>
+			<li><a href="">阴阳师</a></li>
+			<li><a href="">秦时明月</a></li>
+			<li><a href="">泰拉瑞亚</a></li>
+			<li><a href="">生死狙击</a></li>
+			<li><a href="">海贼王</a></li>
+			<li><a href="">TP138查询</a></li>
+			<li><a href="">返利网</a></li>
+			<li><a href="">三国杀</a></li>
+			<li><a href="">王者荣耀</a></li>
+		</ul>
+		<ul style="margin-left: 50px;">
+			<li><a href="">完美漂移</a></li>
+			<li><a href="">4399游戏盒</a></li>
+			<li><a href="">动画片大全</a></li>
+			<li><a href="">手游排行榜</a></li>
+			<li><a href="">我的世界手机版</a></li>
+			<li><a href="">4399游戏资讯</a></li>
+			<li><a href="">动漫网</a></li>
+			<li><a href="">小游戏大全</a></li>
+			<li><a href="">360手机助手</a></li>
+			<li><a href="">儿歌视频大全</a></li>
+			<li><a href="">动漫速递</a></li>
+			<li><a href="">好游快爆</a></li>
+			<li><a href="">闪艺</a></li>
+		</ul>
+	</div>
+	<footer>
+		<div class="div1">
+			<p>作品版权归作者所有,&nbsp;如果侵犯了您的版权,&nbsp;请联系我们,&nbsp;本站将在三个工作日内删除。&nbsp;</p>
+			<p><span style="color: #f60;">温馨提示:&nbsp;</span>抵制不良游戏,&nbsp;拒绝盗版游戏,&nbsp;注意自我保护,&nbsp;谨防上当受骗,&nbsp;适度游戏益脑,&nbsp;沉迷游戏伤身,&nbsp;合理安排时间,&nbsp;享受健康生活。&nbsp;</p>
+		</div>
+		<div class="div2">
+			<p>关于本站&nbsp;|&nbsp;联系本站&nbsp;|&nbsp;FLASH游戏发布&nbsp;|&nbsp;原创平台&nbsp;|&nbsp;招聘信息&nbsp;|&nbsp;问题反馈&nbsp;|&nbsp;关注</p>	
+			<p>闽网文[2015]1993-042号&nbsp;|&nbsp;新出网证(闵)字06号&nbsp;|&nbsp;ICP证闵B2-20040099&nbsp;|&nbsp;闵公网安备&nbsp;35020302000081号&nbsp;|&nbsp;版权保护投诉指引</p>
+			<p>文明办网文明上网举报电话:&nbsp;0592-5054399&nbsp;|&nbsp;举报邮箱:&nbsp;jubao@4399.com&nbsp;|&nbsp;未成年人家长监护&nbsp;|&nbsp;私服外挂举报中心</p>
+			<p>Copyright&nbsp;&nbsp;2004-2017&nbsp;4399.com&nbsp;ALL&nbsp;Rights&nbsp;Reserved&nbsp;&nbsp;四三九九网络股份有限公司&nbsp;版权所有</p>
+		</div>
+	</footer>
+</body>
+</html>
